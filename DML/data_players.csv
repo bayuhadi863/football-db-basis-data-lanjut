@@ -1,0 +1,251 @@
+1,Andrea Belotti,Italy,28,Striker,t,9,181,45000000,5000000
+2,Ferran Torres,Spain,21,Forward,t,21,183,70000000,6000000
+3,Kalidou Koulibaly,Senegal,31,Center-Back,t,26,187,60000000,5500000
+4,Houssem Aouar,France,23,Central Midfield,t,8,175,50000000,4500000
+5,Erling Braut Haaland,Norway,21,Striker,t,9,194,120000000,11000000
+6,Jorginho,Italy,30,Defensive Midfield,t,5,180,60000000,5500000
+7,Lucas Hernandez,France,26,Left-Back,t,21,184,50000000,4500000
+8,Raphaël Guerreiro,Portugal,28,Left-Back,t,13,170,40000000,4000000
+9,Dani Olmo,Spain,24,Attacking Midfield,t,7,181,60000000,5500000
+10,Ciro Immobile,Italy,31,Striker,t,17,185,50000000,5000000
+11,Nicolo Barella,Italy,25,Central Midfield,t,23,172,70000000,6000000
+12,Rodrygo,Brazil,21,Forward,t,27,174,80000000,7000000
+13,Timo Werner,Germany,26,Forward,t,11,185,60000000,5500000
+14,Ismaïla Sarr,Senegal,24,Forward,t,23,183,50000000,4500000
+15,James Ward-Prowse,England,27,Central Midfield,t,8,170,40000000,4000000
+16,Federico Valverde,Uruguay,24,Central Midfield,t,15,182,70000000,6000000
+17,Alexander Isak,Sweden,22,Striker,t,19,190,60000000,5500000
+18,Ruben Neves,Portugal,24,Central Midfield,t,8,180,50000000,5000000
+19,Donyell Malen,Netherlands,23,Striker,t,9,178,60000000,5500000
+20,Jonathan David,Canada,22,Striker,t,9,180,50000000,5000000
+21,Paul Pogba,France,29,Central Midfield,t,6,191,80000000,7000000
+22,Eduardo Camavinga,France,19,Central Midfield,t,17,183,60000000,5000000
+23,Riyad Mahrez,Algeria,31,Forward,t,26,179,75000000,7000000
+24,Kasper Schmeichel,Denmark,35,Goalkeeper,t,1,188,40000000,4500000
+25,João Felix,Portugal,22,Forward,t,7,181,90000000,8000000
+26,Ben Chilwell,England,25,Left-Back,t,21,178,60000000,5500000
+27,Thiago Alcantara,Spain,31,Central Midfield,t,6,174,45000000,6000000
+28,Raphael Varane,France,29,Center-Back,t,19,191,80000000,7000000
+29,Gareth Bale,Wales,33,Forward,t,9,185,45000000,5000000
+30,Marcus Rashford,England,24,Forward,t,10,185,90000000,7500000
+31,Dayot Upamecano,France,23,Center-Back,t,5,186,70000000,6000000
+32,Leon Goretzka,Germany,27,Central Midfield,t,18,189,80000000,7000000
+33,N Golo Kanté,France,31,Defensive Midfield,t,7,168,80000000,7000000
+34,Mason Mount,England,23,Attacking Midfield,t,19,185,70000000,6000000
+35,Youssef En-Nesyri,Morocco,24,Striker,t,15,192,40000000,4500000
+36,Achraf Hakimi,Morocco,23,Right-Back,t,2,181,80000000,7000000
+37,Declan Rice,England,23,Defensive Midfield,t,6,185,70000000,6000000
+38,Pedri,Spain,19,Attacking Midfield,t,16,172,80000000,7000000
+39,Federico Chiesa,Italy,24,Forward,t,22,175,60000000,5500000
+40,Serge Gnabry,Germany,26,Forward,t,7,184,90000000,8000000
+41,Luis Suarez,Uruguay,35,Striker,t,9,182,25000000,4000000
+42,Sadio Mane,Senegal,30,Forward,t,10,175,80000000,7000000
+43,Cristiano Ronaldo,Portugal,37,Forward,t,7,187,75000000,9000000
+44,Alphonso Davies,Canada,21,Left-Back,t,19,183,70000000,6000000
+45,Hakim Ziyech,Morocco,28,Attacking Midfield,t,22,180,60000000,5000000
+46,Lautaro Martinez,Argentina,24,Striker,t,10,174,90000000,8000000
+47,Frenkie de Jong,Netherlands,24,Central Midfield,t,21,180,100000000,9000000
+48,Ashley Young,England,36,Left-Back,t,5,175,15000000,3000000
+49,Jadon Sancho,England,21,Forward,t,7,180,120000000,10000000
+50,Kai Havertz,Germany,22,Attacking Midfield,t,29,188,80000000,7000000
+51,Eden Hazard,Belgium,31,Forward,t,7,175,60000000,8000000
+52,Ruben Dias,Portugal,25,Center-Back,t,3,187,90000000,7500000
+53,Son Heung-min,South Korea,29,Forward,t,7,183,100000000,9000000
+54,Kalvin Phillips,England,26,Defensive Midfield,t,23,175,60000000,5000000
+55,Trent Alexander-Arnold,England,23,Right-Back,t,66,180,110000000,10000000
+56,Marquinhos,Brazil,28,Center-Back,t,5,183,80000000,7000000
+57,Christian Pulisic,United States,24,Forward,t,10,173,70000000,6000000
+58,Rodri,Spain,26,Defensive Midfield,t,16,191,90000000,8000000
+59,Giovanni Reyna,United States,19,Attacking Midfield,t,32,183,50000000,4000000
+60,Wojciech Szczesny,Poland,32,Goalkeeper,t,1,195,30000000,4000000
+61,Casemiro,Brazil,31,Defensive Midfield,t,18,184,63590000,4680000
+62,Pierre-Emerick Aubameyang,Gabon,32,Forward,t,14,187,72100000,5900000
+63,Lionel Messi,Argentina,34,Forward,t,30,170,98000000,8000000
+64,Virgil van Dijk,Netherlands,30,Center-Back,t,4,193,89000000,7200000
+65,Mohamed Salah,Egypt,29,Forward,t,11,175,90000000,7500000
+66,Kylian Mbappe,France,23,Forward,t,7,178,160000000,12000000
+67,Robert Lewandowski,Poland,33,Striker,t,9,185,100000000,9000000
+68,Kevin De Bruyne,Belgium,30,Attacking Midfield,t,17,181,120000000,11000000
+69,Sergio Ramos,Spain,36,Center-Back,t,4,184,45000000,6000000
+70,Neymar Jr.,Brazil,30,Forward,t,10,175,123000000,9500000
+71,Harry Kane,England,28,Striker,t,9,188,120000000,10000000
+72,Bruno Fernandes,Portugal,27,Attacking Midfield,t,18,179,90000000,8000000
+73,Joshua Kimmich,Germany,27,Defensive Midfield,t,6,176,110000000,10000000
+74,Erling Haaland,Norway,21,Striker,t,9,194,130000000,12000000
+75,Gianluigi Donnarumma,Italy,22,Goalkeeper,t,50,196,75000000,5500000
+76,Andrew Robertson,Scotland,28,Left-Back,t,26,178,75000000,6000000
+77,João Cancelo,Portugal,28,Right-Back,t,27,182,80000000,7000000
+78,Jordan Henderson,England,32,Central Midfield,t,14,182,50000000,5500000
+79,Romelu Lukaku,Belgium,29,Striker,t,9,190,100000000,9000000
+80,Jack Grealish,England,26,Attacking Midfield,t,10,173,90000000,7500000
+81,Nicolas Tagliafico,Argentina,29,Left-Back,t,31,172,25000000,3000000
+82,Dani Carvajal,Spain,30,Right-Back,t,2,173,40000000,4500000
+83,Willy Boly,Ivory Coast,31,Center-Back,t,15,197,20000000,2500000
+84,Memphis Depay,Netherlands,28,Forward,t,10,176,60000000,5500000
+85,Leandro Paredes,Argentina,27,Central Midfield,t,5,180,35000000,4000000
+86,Piotr Zielinski,Poland,27,Central Midfield,t,20,180,45000000,5000000
+87,Federico Bernardeschi,Italy,28,Attacking Midfield,t,33,185,30000000,3500000
+88,Chris Wood,New Zealand,30,Striker,t,9,191,25000000,3000000
+89,Ruben Loftus-Cheek,England,26,Central Midfield,t,12,191,35000000,4000000
+90,Jonathan Tah,Germany,26,Center-Back,t,4,195,30000000,3500000
+91,Aaron Wan-Bissaka,England,24,Right-Back,t,29,183,50000000,5500000
+92,Koke,Spain,30,Central Midfield,t,6,176,60000000,5500000
+93,Thorgan Hazard,Belgium,29,Forward,t,23,174,40000000,4500000
+94,Oleksandr Zinchenko,Ukraine,25,Left-Back,t,11,175,30000000,3500000
+95,Hector Bellerin,Spain,27,Right-Back,t,2,178,35000000,4000000
+96,Dusan Tadic,Serbia,33,Forward,t,10,181,25000000,3000000
+97,Fikayo Tomori,England,24,Center-Back,t,22,185,25000000,3000000
+98,Mikel Oyarzabal,Spain,25,Forward,t,10,181,60000000,5500000
+99,James Maddison,England,25,Attacking Midfield,t,10,178,50000000,5000000
+100,Yusuf Yazici,Turkey,25,Attacking Midfield,t,23,183,35000000,4000000
+273,Jordan Pickford,England,27,Goalkeeper,t,1,185,30000000,5000000
+274,Lucas Digne,France,28,Left Back,t,12,179,25000000,4000000
+275,Michael Keane,England,28,Centre Back,t,5,188,20000000,2500000
+104,Neymar Jr,Brazil,30,Forward,t,10,175,90000000,35000000
+276,Allan,Brazil,30,Defensive Midfield,t,6,179,15000000,3000000
+277,Andros Townsend,England,30,Right Winger,t,17,180,10000000,3000000
+278,Abdoulaye Doucoure,Mali,28,Central Midfield,t,16,190,20000000,3000000
+279,Fabian Delph,England,31,Central Midfield,t,8,175,5000000,3000000
+109,Alisson,Brazil,29,Goalkeeper,t,1,191,70000000,9000000
+280,Demarai Gray,England,25,Left Winger,t,11,173,12000000,2000000
+111,Karim Benzema,France,34,Forward,t,9,185,60000000,17000000
+112,Thibaut Courtois,Belgium,29,Goalkeeper,t,1,199,50000000,10000000
+281,Dominic Calvert-Lewin,England,24,Striker,t,9,185,35000000,3000000
+114,Luka Modric,Croatia,36,Central Midfield,t,10,172,20000000,10000000
+282,Richarlison,Brazil,24,Striker,t,7,175,45000000,4000000
+116,Toni Kroos,Germany,31,Central Midfield,t,8,183,35000000,17000000
+117,Marc-Andre ter Stegen,Germany,29,Goalkeeper,t,1,187,55000000,9000000
+283,Yerry Mina,Colombia,26,Centre Back,t,13,195,20000000,2500000
+119,Antoine Griezmann,France,30,Forward,t,7,176,60000000,23000000
+120,Jan Oblak,Slovenia,28,Goalkeeper,t,13,188,90000000,10000000
+284,Ben Godfrey,England,23,Centre Back,t,22,190,20000000,1500000
+122,Heung Min Son,South Korea,29,Forward,t,7,183,90000000,15000000
+123,Hugo Lloris,France,34,Goalkeeper,t,1,188,20000000,8000000
+285,Mason Holgate,England,25,Centre Back,t,4,190,18000000,2000000
+125,Bernardo Silva,Portugal,27,Attacking Midfield,t,20,173,90000000,9000000
+126,Aymeric Laporte,France,27,Defender,t,14,189,55000000,7000000
+127,Raheem Sterling,England,26,Winger,t,7,170,110000000,13000000
+128,Ederson,Brazil,28,Goalkeeper,t,31,188,60000000,7000000
+286,Tom Davies,England,23,Central Midfield,t,26,180,10000000,1500000
+287,Jean-Philippe Gbamin,Ivory Coast,25,Defensive Midfield,t,19,186,8000000,1500000
+131,Thiago Silva,Brazil,37,Defender,t,2,183,2000000,5000000
+132,Keylor Navas,Costa Rica,34,Goalkeeper,t,1,183,8000000,6000000
+288,Alex Iwobi,Nigeria,25,Attacking Midfield,t,17,176,12000000,2500000
+289,Andre Gomes,Portugal,28,Central Midfield,t,8,189,12000000,3000000
+290,Asmir Begovic,Bosnia,34,Goalkeeper,t,23,196,1000000,2000000
+136,Thomas Muller,Germany,32,Attacking Midfield,t,25,186,35000000,17000000
+137,Manuel Neuer,Germany,35,Goalkeeper,t,1,193,15000000,20000000
+138,David Alaba,Austria,29,Defender,t,27,180,55000000,12000000
+139,Leroy Sane,Germany,25,Winger,t,19,183,60000000,9000000
+291,Anwar El Ghazi,Netherlands,26,Left Winger,t,21,185,8000000,2000000
+141,Mats Hummels,Germany,32,Defender,t,15,191,20000000,8000000
+142,Ilkay Gundogan,Germany,31,Central Midfield,t,8,180,45000000,8000000
+143,Raphael Guerreiro,Portugal,27,Left Back,t,13,170,40000000,4000000
+292,Matt Targett,England,25,Left Back,t,3,180,14000000,2000000
+145,Ferland Mendy,France,26,Left Back,t,23,178,45000000,5000000
+293,John McGinn,Scotland,26,Central Midfield,t,7,175,20000000,2500000
+294,Douglas Luiz,Brazil,23,Defensive Midfield,t,6,174,25000000,2000000
+148,Phil Foden,England,21,Attacking Midfield,t,47,171,90000000,4000000
+149,Milan Skriniar,Slovakia,26,Centre Back,t,37,186,65000000,4000000
+295,Jacob Ramsey,England,20,Central Midfield,t,41,185,12000000,500000
+296,Ezri Konsa,England,23,Centre Back,t,4,186,12000000,1500000
+152,Marco Verratti,Italy,28,Central Midfield,t,6,165,60000000,7000000
+153,Leonardo Bonucci,Italy,34,Defender,t,19,190,20000000,5000000
+297,Emiliano Buendia,Argentina,24,Attacking Midfield,t,10,168,25000000,2000000
+298,Tyrone Mings,England,28,Centre Back,t,5,195,14000000,2000000
+299,Ollie Watkins,England,25,Striker,t,11,185,28000000,2000000
+157,Paulo Dybala,Argentina,27,Attacking Midfield,t,21,177,45000000,7500000
+300,Bertrand Traore,Burkina Faso,26,Right Winger,t,10,178,14000000,2000000
+301,Leon Bailey,Jamaica,24,Left Winger,t,7,175,20000000,2500000
+160,Gerard Pique,Spain,34,Centre Back,t,3,192,12000000,9000000
+161,Sergio Busquets,Spain,33,Defensive Midfield,t,5,189,12000000,9000000
+162,Jordi Alba,Spain,32,Left Back,t,18,170,15000000,6000000
+163,Ansu Fati,Spain,19,Left Winger,t,22,170,60000000,2000000
+302,Marvelous Nakamba,Zimbabwe,27,Defensive Midfield,t,19,168,8000000,1500000
+303,Morgan Sanson,France,26,Central Midfield,t,8,179,7000000,1500000
+304,Jed Steer,England,29,Goalkeeper,t,13,188,1000000,500000
+305,Keinan Davis,England,23,Striker,t,18,185,5000000,500000
+168,Kingsley Coman,France,25,Winger,t,11,178,50000000,6000000
+306,Cameron Archer,England,19,Striker,t,38,180,500000,50000
+307,Carney Chukwuemeka,England,17,Central Midfield,t,37,185,500000,50000
+308,Matty Cash,Poland,24,Right Back,t,2,183,14000000,1500000
+310,James Tarkowski,England,28,Centre Back,t,2,185,12000000,2500000
+311,Dwight McNeil,England,22,Left Winger,t,11,180,20000000,1500000
+176,Ousmane Dembele,France,24,Winger,t,11,178,30000000,6000000
+312,Josh Brownhill,England,25,Central Midfield,t,8,185,12000000,1500000
+178,Bukayo Saka,England,20,Left Winger,t,7,178,60000000,2000000
+179,Aaron Ramsdale,England,23,Goalkeeper,t,32,189,25000000,3000000
+180,Takehiro Tomiyasu,Japan,23,Right Back,t,18,185,20000000,2000000
+181,Emiliano Martinez,Argentina,29,Goalkeeper,t,26,194,25000000,4000000
+313,Aaron Lennon,England,34,Right Winger,t,25,170,500000,2000000
+183,Edouard Mendy,Senegal,29,Goalkeeper,t,16,196,30000000,4000000
+184,Ngolo Kante,France,30,Defensive Midfield,t,7,168,20000000,10000000
+185,Cesar Azpilicueta,Spain,32,Defender,t,28,178,10000000,6000000
+314,Ashley Westwood,England,31,Defensive Midfield,t,18,178,5000000,1500000
+187,Reece James,England,22,Right Back,t,24,180,60000000,4000000
+188,Rodrigo,Spain,30,Forward,t,19,182,20000000,5000000
+189,Raphinha,Brazil,25,Winger,t,10,175,35000000,3000000
+190,Rui Patricio,Portugal,33,Goalkeeper,t,1,192,8000000,3000000
+191,Lisandro Martinez,Argentina,23,Centre Back,t,6,174,30000000,2000000
+315,Jay Rodriguez,England,32,Striker,t,19,185,5000000,2000000
+193,David de Gea,Spain,31,Goalkeeper,t,1,194,20000000,11000000
+316,Maxwel Cornet,Ivory Coast,25,Left Winger,t,11,179,12000000,2000000
+317,Charlie Taylor,England,27,Left Back,t,3,178,8000000,1500000
+196,Scott McTominay,Scotland,25,Defensive Midfield,t,39,193,30000000,4000000
+197,Diogo Jota,Portugal,25,Forward,t,20,178,45000000,4000000
+318,Nathan Collins,Ireland,20,Centre Back,t,4,194,10000000,500000
+199,Fabinho,Brazil,28,Defensive Midfield,t,3,188,45000000,5000000
+200,Thiago,Spain,30,Central Midfield,t,6,174,25000000,7000000
+201,Andy Robertson,Scotland,27,Left Back,t,26,178,45000000,6000000
+319,Connor Roberts,Wales,25,Right Back,t,23,178,8000000,1000000
+320,Erik Pieters,Netherlands,33,Left Back,t,23,184,2000000,1000000
+321,Jack Cork,England,32,Central Midfield,t,4,185,2000000,1500000
+322,Ashley Barnes,England,31,Striker,t,10,180,2000000,1500000
+206,Nicolas Otamendi,Argentina,33,Centre Back,t,30,183,5000000,4000000
+323,Dale Stephens,England,32,Central Midfield,t,26,185,500000,500000
+324,Wayne Hennessey,Wales,34,Goalkeeper,t,27,196,500000,1000000
+325,Kevin Long,Ireland,30,Centre Back,t,5,190,1000000,500000
+326,Bailey Peacock-Farrell,N. Ireland,24,Goalkeeper,t,1,196,5000000,500000
+211,Harry Maguire,England,28,Centre Back,t,5,194,40000000,12000000
+212,Luke Shaw,England,26,Left Back,t,23,185,35000000,5000000
+213,Fred,Brazil,28,Central Midfield,t,17,169,25000000,4000000
+214,Diogo Dalot,Portugal,22,Right Back,t,20,183,17000000,3000000
+215,Dean Henderson,England,24,Goalkeeper,t,26,188,20000000,4000000
+327,Will Norris,England,27,Goalkeeper,t,12,191,500000,200000
+328,Bobby Thomas,England,19,Centre Back,t,4,193,1000000,50000
+329,Dara Costelloe,Ireland,18,Right Winger,t,24,175,200000,20000
+330,Anthony Gomez Mancini,England,21,Striker,t,36,188,500000,30000
+331,Neco Williams,Wales,20,Right Back,t,4,170,12000000,500000
+332,Naby Keita,Guinea,26,Central Midfield,t,8,172,20000000,5000000
+333,Alex Oxlade-Chamberlain,England,28,Central Midfield,t,15,175,14000000,5000000
+334,Caoimhin Kelleher,Ireland,22,Goalkeeper,t,62,189,8000000,200000
+335,Ibrahima Konate,France,22,Centre Back,t,5,194,35000000,2000000
+336,Curtis Jones,England,20,Central Midfield,t,17,185,20000000,300000
+338,Joe Gomez,England,24,Centre Back,t,12,188,28000000,4000000
+340,Roberto Firmino,Brazil,30,Forward,t,9,181,20000000,8000000
+341,Joel Matip,Cameroon,30,Centre Back,t,32,195,14000000,5000000
+342,James Milner,England,36,Central Midfield,t,7,175,2000000,5000000
+343,Divock Origi,Belgium,26,Striker,t,27,185,12000000,4000000
+344,Adrian,Spain,34,Goalkeeper,t,1,190,1000000,2000000
+345,Takumi Minamino,Japan,26,Attacking Midfield,t,18,174,12000000,3000000
+346,Nat Phillips,England,24,Centre Back,t,47,193,7000000,500000
+347,Harvey Elliott,England,18,Midfielder,t,67,175,15000000,100000
+348,Konstantinos Tsimikas,Greece,25,Left Back,t,21,178,9000000,2000000
+350,David De Gea,Spain,31,Goalkeeper,t,1,192,60000000,10000000
+362,Victor Lindelöf,Sweden,27,Centre Back,t,2,187,40000000,5000000
+363,Nemanja Matić,Serbia,33,Defensive Midfield,t,31,194,15000000,3000000
+364,Donny van de Beek,Netherlands,24,Central Midfield,t,34,184,40000000,6000000
+365,Mason Greenwood,England,20,Right Winger,t,11,183,70000000,10000000
+366,Edinson Cavani,Uruguay,35,Striker,t,21,184,20000000,7000000
+367,Jesse Lingard,England,29,Attacking Midfield,t,14,175,25000000,4000000
+368,Anthony Martial,France,26,Striker,t,9,181,60000000,10000000
+370,Juan Mata,Spain,33,Attacking Midfield,t,8,170,10000000,3000000
+371,Axel Tuanzebe,England,24,Centre Back,t,38,185,20000000,3000000
+372,Phil Jones,England,29,Centre Back,t,4,185,10000000,3000000
+373,Eric Bailly,Ivory Coast,27,Centre Back,t,3,187,25000000,4000000
+374,Tahith Chong,Netherlands,22,Right Winger,t,44,183,15000000,2000000
+376,James Garner,England,21,Central Midfield,t,37,183,30000000,4000000
+377,Amad Diallo,Ivory Coast,19,Right Winger,t,16,176,25000000,3000000
+378,Nathan Bishop,England,22,Goalkeeper,t,48,188,5000000,1000000
+379,Alex Telles,Brazil,29,Left Back,t,27,181,30000000,4000000
+380,Brandon Williams,England,21,Left Back,t,33,175,15000000,2000000

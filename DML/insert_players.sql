@@ -396,6 +396,545 @@ VALUES
 ('Alex Telles', 'Brazil', 29, 'Left Back', 27, 181, 30000000, 4000000),
 ('Brandon Williams', 'England', 21, 'Left Back', 33, 175, 15000000, 2000000);
 
+-- Tottenham
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Harry Kane', 'England', 29, 'Striker', 10, 188, 120000000, 10000000),
+('Son Heung-min', 'South Korea', 30, 'Forward', 7, 183, 90000000, 8000000),
+('Hugo Lloris', 'France', 35, 'Goalkeeper', 1, 188, 15000000, 6000000),
+('Davinson Sánchez', 'Colombia', 26, 'Center-Back', 6, 187, 50000000, 5000000),
+('Pierre-Emile Højbjerg', 'Denmark', 26, 'Central Midfield', 5, 185, 60000000, 5500000),
+('Sergio Reguilón', 'Spain', 25, 'Left-Back', 3, 179, 40000000, 4500000),
+('Tanguy Ndombele', 'France', 25, 'Central Midfield', 28, 181, 70000000, 6000000),
+('Matt Doherty', 'Ireland', 30, 'Right-Back', 2, 183, 35000000, 4000000),
+('Cristian Romero', 'Argentina', 24, 'Center-Back', 4, 187, 60000000, 5500000),
+('Dejan Kulusevski', 'Sweden', 21, 'Forward', 20, 187, 70000000, 6000000),
+('Oliver Skipp', 'England', 21, 'Central Midfield', 29, 180, 25000000, 3000000),
+('Eric Dier', 'England', 28, 'Defensive Midfield', 15, 188, 35000000, 4000000),
+('Giovani Lo Celso', 'Argentina', 26, 'Central Midfield', 18, 177, 50000000, 5000000),
+('Emerson Royal', 'Brazil', 23, 'Right-Back', 12, 183, 40000000, 4500000),
+('Steven Bergwijn', 'Netherlands', 24, 'Forward', 23, 178, 45000000, 5000000),
+('Joe Rodon', 'Wales', 24, 'Center-Back', 14, 193, 30000000, 3500000),
+('Lucas Moura', 'Brazil', 30, 'Forward', 27, 172, 35000000, 4000000),
+('Ben Davies', 'Wales', 29, 'Left-Back', 33, 183, 25000000, 3000000),
+('Japhet Tanganga', 'England', 22, 'Center-Back', 25, 185, 30000000, 3500000),
+('Alfie Whiteman', 'England', 23, 'Goalkeeper', 41, 188, 5000000, 1500000),
+('Harry Winks', 'England', 26, 'Central Midfield', 8, 178, 25000000, 3000000),
+('Ryan Sessegnon', 'England', 22, 'Left-Back', 19, 175, 35000000, 4000000),
+('Pape Matar Sarr', 'Senegal', 19, 'Central Midfield', 28, 181, 45000000, 5000000),
+('Cameron Carter-Vickers', 'United States', 24, 'Center-Back', 5, 185, 20000000, 2500000),
+('Juan Foyth', 'Argentina', 24, 'Right-Back', 21, 187, 30000000, 3500000),
+('Brandon Austin', 'England', 23, 'Goalkeeper', 47, 190, 5000000, 1500000),
+('Jack Clarke', 'England', 21, 'Forward', 23, 178, 15000000, 2000000),
+('Dennis Cirkin', 'England', 19, 'Left-Back', 48, 178, 10000000, 1500000),
+('Malachi Fagan-Walcott', 'England', 20, 'Center-Back', 37, 193, 15000000, 2000000),
+('Harvey White', 'England', 20, 'Central Midfield', 41, 178, 12000000, 1500000);
+
+-- Brentfort
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Ivan Toney', 'England', 26, 'Striker', 17, 185, 35000000, 4000000),
+('Bryan Mbeumo', 'France', 22, 'Forward', 19, 176, 25000000, 3000000),
+('Pontus Jansson', 'Sweden', 31, 'Center-Back', 18, 192, 20000000, 2500000),
+('Vitaly Janelt', 'Germany', 24, 'Central Midfield', 8, 185, 30000000, 3500000),
+('Kristoffer Ajer', 'Norway', 24, 'Center-Back', 24, 199, 25000000, 3000000),
+('Frank Onyeka', 'Nigeria', 24, 'Defensive Midfield', 6, 183, 30000000, 3500000),
+('Christian Nørgaard', 'Denmark', 27, 'Defensive Midfield', 6, 187, 20000000, 2500000),
+('Mads Roerslev', 'Denmark', 23, 'Right-Back', 22, 183, 15000000, 2000000),
+('Saman Ghoddos', 'Iran', 29, 'Attacking Midfield', 21, 183, 15000000, 2000000),
+('Rico Henry', 'England', 24, 'Left-Back', 3, 178, 20000000, 2500000),
+('Mathias Jensen', 'Denmark', 26, 'Central Midfield', 8, 185, 25000000, 3000000),
+('Henrik Dalsgaard', 'Denmark', 32, 'Right-Back', 22, 187, 10000000, 1500000),
+('Shandon Baptiste', 'Grenada', 24, 'Central Midfield', 8, 178, 15000000, 2000000),
+('Josh Dasilva', 'England', 23, 'Central Midfield', 14, 185, 25000000, 3000000),
+('David Raya', 'Spain', 26, 'Goalkeeper', 1, 188, 20000000, 2500000),
+('Yoane Wissa', 'France', 24, 'Forward', 21, 175, 20000000, 2500000),
+('Charlie Goode', 'England', 26, 'Center-Back', 5, 193, 15000000, 2000000),
+('Mads Bech Sørensen', 'Denmark', 23, 'Center-Back', 15, 191, 15000000, 2000000),
+('Emiliano Marcondes', 'Denmark', 26, 'Attacking Midfield', 27, 183, 20000000, 2500000),
+('Dominic Thompson', 'England', 21, 'Left-Back', 33, 183, 10000000, 1500000),
+('Marcus Forss', 'Finland', 22, 'Striker', 19, 185, 15000000, 2000000),
+('Luke Daniels', 'England', 34, 'Goalkeeper', 12, 185, 5000000, 1000000),
+('Alvaro Fernandez', 'Spain', 23, 'Left-Back', 23, 180, 20000000, 2500000),
+('Aaron Pressley', 'England', 19, 'Striker', 17, 190, 15000000, 2000000),
+('Lewis Gordon', 'England', 21, 'Left-Back', 29, 175, 10000000, 1500000),
+('Jonny Mitchell', 'England', 21, 'Center-Back', 27, 193, 10000000, 1500000),
+('Jan Žambůrek', 'Czech Republic', 21, 'Central Midfield', 34, 185, 10000000, 1500000),
+('Dion Dublin', 'England', 19, 'Striker', 30, 190, 10000000, 1500000),
+('Mads Bidstrup', 'Denmark', 21, 'Central Midfield', 14, 183, 15000000, 2000000);
+
+-- Aston Villa
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Emiliano Buendía', 'Argentina', 25, 'Attacking Midfield', 10, 172, 40000000, 4500000),
+('Ollie Watkins', 'England', 26, 'Striker', 11, 180, 50000000, 5500000),
+('Matt Targett', 'England', 26, 'Left-Back', 18, 182, 25000000, 3000000),
+('Douglas Luiz', 'Brazil', 24, 'Defensive Midfield', 6, 178, 35000000, 4000000),
+('Ezri Konsa', 'England', 24, 'Center-Back', 4, 185, 35000000, 4000000),
+('Tyrone Mings', 'England', 29, 'Center-Back', 5, 196, 40000000, 4500000),
+('John McGinn', 'Scotland', 28, 'Central Midfield', 7, 178, 35000000, 4000000),
+('Leon Bailey', 'Jamaica', 25, 'Forward', 17, 178, 45000000, 5000000),
+('Matty Cash', 'Poland', 24, 'Right-Back', 2, 178, 30000000, 3500000),
+('Danny Ings', 'England', 29, 'Striker', 28, 178, 35000000, 4000000),
+('Emiliano Martínez', 'Argentina', 30, 'Goalkeeper', 1, 195, 35000000, 4000000),
+('Marvelous Nakamba', 'Zimbabwe', 28, 'Defensive Midfield', 19, 183, 20000000, 2500000),
+('Ashley Young', 'England', 37, 'Left Midfield', 18, 175, 10000000, 1500000),
+('Bertrand Traoré', 'Burkina Faso', 26, 'Forward', 15, 180, 30000000, 3500000),
+('Axel Tuanzebe', 'England', 24, 'Center-Back', 16, 185, 20000000, 2500000),
+('Jaden Philogene-Bidace', 'England', 19, 'Left Midfield', 39, 178, 15000000, 2000000),
+('Cameron Archer', 'England', 20, 'Striker', 31, 188, 10000000, 1500000),
+('Kortney Hause', 'England', 26, 'Center-Back', 30, 190, 20000000, 2500000),
+('Anwar El Ghazi', 'Netherlands', 27, 'Forward', 21, 188, 25000000, 3000000),
+('Jed Steer', 'England', 29, 'Goalkeeper', 12, 188, 5000000, 1000000),
+('Carney Chukwuemeka', 'England', 19, 'Central Midfield', 42, 185, 15000000, 2000000),
+('Jacob Ramsey', 'England', 20, 'Central Midfield', 41, 180, 15000000, 2000000),
+('Courtney Hause', 'England', 26, 'Left-Back', 3, 185, 20000000, 2500000),
+('Philogene-Bidace', 'England', 18, 'Left Midfield', 39, 178, 10000000, 1500000),
+('Aaron Ramsey', 'Wales', 21, 'Central Midfield', 41, 183, 15000000, 2000000),
+('Dominic Revan', 'England', 23, 'Center-Back', 48, 185, 10000000, 1500000),
+('Lewis Brunt', 'England', 18, 'Central Midfield', 40, 178, 10000000, 1500000),
+('Ben Chrisene', 'England', 18, 'Central Midfield', 43, 180, 10000000, 1500000),
+('Arjan Raikhy', 'England', 19, 'Central Midfield', 44, 178, 10000000, 1500000),
+('Sebastian Revan', 'England', 21, 'Center-Back', 46, 190, 10000000, 1500000);
+
+
+-- Fulham
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Aleksandar Mitrovic', 'Serbia', 28, 'Striker', 9, 188, 30000000, 3500000),
+('Harry Wilson', 'Wales', 25, 'Right Midfield', 23, 173, 25000000, 3000000),
+('Kenny Tete', 'Netherlands', 26, 'Right-Back', 2, 181, 15000000, 2000000),
+('Michael Hector', 'Jamaica', 29, 'Center-Back', 3, 193, 10000000, 1500000),
+('Harrison Reed', 'England', 27, 'Central Midfield', 21, 178, 20000000, 2500000),
+('Neeskens Kebano', 'DR Congo', 30, 'Left Midfield', 7, 170, 15000000, 2000000),
+('Fabio Carvalho', 'Portugal', 19, 'Attacking Midfield', 10, 175, 20000000, 2500000),
+('Marek Rodák', 'Slovakia', 25, 'Goalkeeper', 12, 191, 10000000, 1500000),
+('Antonee Robinson', 'United States', 24, 'Left-Back', 3, 180, 20000000, 2500000),
+('Mitrović', 'Serbia', 27, 'Striker', 9, 188, 30000000, 3500000),
+('Denis Odoi', 'Belgium', 33, 'Right-Back', 4, 180, 10000000, 1500000),
+('Tim Ream', 'United States', 34, 'Center-Back', 13, 188, 8000000, 1000000),
+('Terence Kongolo', 'Netherlands', 27, 'Center-Back', 3, 187, 12000000, 1500000),
+('Leandro Trossard', 'Belgium', 27, 'Left Midfield', 11, 173, 35000000, 4000000),
+('Ivan Cavaleiro', 'Portugal', 28, 'Forward', 17, 175, 20000000, 2500000),
+('Rodrigo Muniz', 'Brazil', 20, 'Striker', 19, 190, 25000000, 3000000),
+('Tom Cairney', 'Scotland', 30, 'Central Midfield', 10, 183, 15000000, 2000000),
+('Jean Michaël Seri', 'Ivory Coast', 30, 'Central Midfield', 24, 174, 15000000, 2000000),
+('Joe Bryan', 'England', 28, 'Left-Back', 23, 183, 15000000, 2000000),
+('Josh Onomah', 'England', 25, 'Central Midfield', 8, 185, 20000000, 2500000),
+('Djed Spence', 'England', 21, 'Right-Back', 2, 180, 20000000, 2500000),
+('Tosin Adarabioyo', 'Nigeria', 24, 'Center-Back', 16, 196, 30000000, 3500000),
+('Bobby De Cordova-Reid', 'Jamaica', 28, 'Forward', 14, 183, 20000000, 2500000),
+('Joshua Harris', 'England', 19, 'Striker', 30, 180, 10000000, 1500000),
+('Tyrese Francois', 'England', 21, 'Central Midfield', 39, 180, 10000000, 1500000),
+('Ethan Ennis', 'England', 17, 'Striker', 49, 175, 5000000, 1000000),
+('Igor Vetokele', 'Angola', 30, 'Striker', 48, 180, 8000000, 1000000),
+('Felix Cash', 'England', 19, 'Striker', 50, 190, 10000000, 1500000),
+('Myles Peart-Harris', 'England', 19, 'Attacking Midfield', 50, 173, 15000000, 2000000),
+('Foday Nabay', 'Sierra Leone', 27, 'Central Midfield', 50, 180, 15000000, 2000000);
+
+-- Arsenal
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Pierre-Emerick Aubameyang', 'Gabon', 33, 'Striker', 14, 187, 60000000, 6500000),
+('Bukayo Saka', 'England', 21, 'Forward', 7, 170, 80000000, 8000000),
+('Gabriel Martinelli', 'Brazil', 21, 'Forward', 35, 180, 50000000, 5500000),
+('Thomas Partey', 'Ghana', 29, 'Central Midfield', 5, 185, 60000000, 6500000),
+('Ben White', 'England', 24, 'Center-Back', 4, 187, 70000000, 7500000),
+('Emile Smith Rowe', 'England', 21, 'Attacking Midfield', 10, 178, 50000000, 5500000),
+('Kieran Tierney', 'Scotland', 25, 'Left-Back', 3, 178, 60000000, 6500000),
+('Aaron Ramsdale', 'England', 24, 'Goalkeeper', 32, 188, 40000000, 4500000),
+('Granit Xhaka', 'Switzerland', 29, 'Central Midfield', 34, 183, 40000000, 4500000),
+('Rob Holding', 'England', 26, 'Center-Back', 16, 189, 25000000, 3000000),
+('Nicolas Pépé', 'Ivory Coast', 27, 'Forward', 19, 183, 50000000, 5500000),
+('Cedric Soares', 'Portugal', 30, 'Right-Back', 17, 172, 15000000, 2000000),
+('Nuno Tavares', 'Portugal', 22, 'Left-Back', 20, 179, 20000000, 2500000),
+('Ainsley Maitland-Niles', 'England', 25, 'Central Midfield', 15, 177, 20000000, 2500000),
+('Alexandre Lacazette', 'France', 31, 'Striker', 9, 175, 30000000, 3500000),
+('Hector Bellerin', 'Spain', 27, 'Right-Back', 2, 177, 30000000, 3500000),
+('Mohamed Elneny', 'Egypt', 29, 'Central Midfield', 25, 183, 15000000, 2000000),
+('Eddie Nketiah', 'England', 22, 'Striker', 30, 178, 25000000, 3000000),
+('Albert Sambi Lokonga', 'Belgium', 22, 'Central Midfield', 23, 181, 30000000, 3500000),
+('Calum Chambers', 'England', 27, 'Center-Back', 21, 185, 20000000, 2500000),
+('Folarin Balogun', 'United States', 21, 'Striker', 26, 183, 20000000, 2500000),
+('Pablo Mari', 'Spain', 28, 'Center-Back', 22, 193, 20000000, 2500000),
+('Charlie Patino', 'England', 19, 'Central Midfield', 40, 175, 10000000, 1500000),
+('Reiss Nelson', 'England', 22, 'Forward', 24, 175, 15000000, 2000000),
+('Tyreece John-Jules', 'England', 20, 'Striker', 49, 180, 15000000, 2000000),
+('Konstantinos Mavropanos', 'Greece', 24, 'Center-Back', 27, 192, 20000000, 2500000),
+('Joel López', 'Spain', 19, 'Left-Back', 49, 177, 10000000, 1500000),
+('Karl Hein', 'Estonia', 20, 'Goalkeeper', 33, 188, 10000000, 1500000),
+('Miguel Azeez', 'England', 19, 'Central Midfield', 47, 183, 15000000, 2000000),
+('Omar Rekik', 'Tunisia', 20, 'Center-Back', 46, 192, 10000000, 1500000);
+
+-- Everton
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Dominic Calvert-Lewin', 'England', 25, 'Striker', 9, 187, 70000000, 7500000),
+('Richarlison', 'Brazil', 25, 'Forward', 7, 177, 60000000, 6500000),
+('Jordan Pickford', 'England', 28, 'Goalkeeper', 1, 185, 50000000, 5500000),
+('Andros Townsend', 'England', 31, 'Right Midfield', 20, 173, 15000000, 2000000),
+('Abdoulaye Doucouré', 'France', 29, 'Central Midfield', 16, 184, 40000000, 4500000),
+('Lucas Digne', 'France', 29, 'Left-Back', 12, 178, 35000000, 4000000),
+('Allan', 'Brazil', 31, 'Defensive Midfield', 6, 174, 30000000, 3500000),
+('Yerry Mina', 'Colombia', 27, 'Center-Back', 13, 195, 30000000, 3500000),
+('Alex Iwobi', 'Nigeria', 26, 'Left Midfield', 17, 181, 25000000, 3000000),
+('Michael Keane', 'England', 29, 'Center-Back', 5, 193, 30000000, 3500000),
+('Seamus Coleman', 'Ireland', 33, 'Right-Back', 23, 178, 10000000, 1500000),
+('Tom Davies', 'England', 23, 'Central Midfield', 26, 181, 20000000, 2500000),
+('Asmir Begovic', 'Bosnia and Herzegovina', 35, 'Goalkeeper', 31, 199, 5000000, 1000000),
+('Salomón Rondón', 'Venezuela', 32, 'Striker', 19, 186, 15000000, 2000000),
+('André Gomes', 'Portugal', 28, 'Central Midfield', 21, 188, 25000000, 3000000),
+('Jonjoe Kenny', 'England', 25, 'Right-Back', 43, 175, 15000000, 2000000),
+('Anthony Gordon', 'England', 21, 'Left Midfield', 42, 178, 20000000, 2500000),
+('Ben Godfrey', 'England', 24, 'Center-Back', 22, 184, 40000000, 4500000),
+('Mason Holgate', 'England', 25, 'Center-Back', 2, 184, 25000000, 3000000),
+('Nathan Broadhead', 'Wales', 24, 'Forward', 37, 175, 10000000, 1500000),
+('Jean-Philippe Gbamin', 'Ivory Coast', 26, 'Defensive Midfield', 25, 184, 20000000, 2500000),
+('Demarai Gray', 'England', 26, 'Left Midfield', 11, 179, 25000000, 3000000),
+('Fabio Vieira', 'Portugal', 21, 'Attacking Midfield', 16, 178, 30000000, 3500000),
+('Harry Tyrer', 'England', 21, 'Goalkeeper', 53, 193, 5000000, 1000000),
+('Niels Nkounkou', 'France', 20, 'Left-Back', 38, 175, 20000000, 2500000),
+('Kyle John', 'England', 20, 'Right-Back', 53, 175, 10000000, 1500000),
+('João Virgínia', 'Portugal', 22, 'Goalkeeper', 50, 190, 15000000, 2000000),
+('Isaac Price', 'Wales', 19, 'Central Midfield', 54, 183, 10000000, 1500000),
+('Rhys Hughes', 'Wales', 17, 'Central Midfield', 52, 178, 10000000, 1500000),
+('Ciaran Leeming', 'England', 17, 'Striker', 51, 180, 5000000, 1000000);
+
+-- AFC Bournemoth
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Neto', 'Portugal', 32, 'Goalkeeper', 27, 188, 2000000, 2000000),
+('Mark Travers', 'Ireland', 23, 'Goalkeeper', 1, 191, 8000000, 1000000),
+('Will Dennis', 'England', 21, 'Goalkeeper', 12, 193, 1000000, 1000000),
+('Chris Mepham', 'Wales', 24, 'Defender', 5, 185, 12000000, 2000000),
+('Lloyd Kelly', 'England', 23, 'Defender', 3, 186, 14000000, 2000000),
+('Adam Smith', 'England', 31, 'Defender', 2, 175, 4000000, 2000000),
+('Jack Stacey', 'England', 26, 'Defender', 29, 170, 8000000, 1500000),
+('Jefferson Lerma', 'Colombia', 27, 'Midfielder', 8, 179, 14000000, 3000000),
+('Lewis Cook', 'England', 25, 'Midfielder', 16, 185, 10000000, 2000000),
+('Junior Stanislas', 'England', 32, 'Midfielder', 10, 175, 4000000, 2000000),
+('Philip Billing', 'Denmark', 25, 'Midfielder', 8, 198, 14000000, 2000000),
+('Ryan Christie', 'Scotland', 27, 'Midfielder', 7, 170, 14000000, 2500000),
+('Emiliano Marcondes', 'Denmark', 27, 'Midfielder', 23, 179, 6000000, 1500000),
+('Ben Pearson', 'England', 27, 'Midfielder', 4, 183, 6000000, 1500000),
+
+('Marcus Tavernier', 'England', 23, 'Midfielder', 19, 185, 14000000, 1500000),
+('Kieffer Moore', 'Wales', 30, 'Forward', 24, 196, 10000000, 2500000),
+('Dominic Solanke', 'England', 24, 'Forward', 9, 185, 14000000, 2500000),
+('Jamal Lowe', 'Jamaica', 27, 'Forward', 7, 170, 8000000, 1500000),
+('Siriki Dembele', 'Scotland', 25, 'Forward', 11, 170, 6000000, 1500000),
+('Joe Rothwell', 'England', 27, 'Midfielder', 18, 185, 6000000, 1500000),
+('Marcos Senesi', 'Argentina', 25, 'Defender', 4, 186, 16000000, 2000000);
+
+-- Burnley
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Chris Wood', 'New Zealand', 30, 'Striker', 9, 191, 25000000, 3000000),
+('Maxwel Cornet', 'Ivory Coast', 25, 'Left Midfield', 12, 181, 30000000, 3500000),
+('Nick Pope', 'England', 30, 'Goalkeeper', 1, 196, 40000000, 4500000),
+('James Tarkowski', 'England', 29, 'Center-Back', 5, 188, 30000000, 3500000),
+('Dwight McNeil', 'England', 21, 'Left Midfield', 11, 178, 35000000, 4000000),
+('Ben Mee', 'England', 32, 'Center-Back', 6, 188, 20000000, 2500000),
+('Ashley Westwood', 'England', 32, 'Central Midfield', 18, 183, 15000000, 2000000),
+('Matthew Lowton', 'England', 32, 'Right-Back', 2, 183, 15000000, 2000000),
+('Josh Brownhill', 'England', 26, 'Central Midfield', 8, 178, 20000000, 2500000),
+('Charlie Taylor', 'England', 28, 'Left-Back', 3, 178, 20000000, 2500000),
+('Jay Rodriguez', 'England', 32, 'Striker', 19, 183, 15000000, 2000000),
+('Connor Roberts', 'Wales', 26, 'Right-Back', 14, 183, 20000000, 2500000),
+('Wout Weghorst', 'Netherlands', 30, 'Striker', 9, 197, 35000000, 4000000),
+('Jack Cork', 'England', 32, 'Central Midfield', 4, 186, 15000000, 2000000),
+('Matej Vydra', 'Czech Republic', 30, 'Striker', 27, 180, 15000000, 2000000),
+('Kevin Long', 'Ireland', 32, 'Center-Back', 28, 191, 10000000, 1500000),
+('Aaron Lennon', 'England', 35, 'Right Midfield', 25, 165, 8000000, 1000000),
+('Erik Pieters', 'Netherlands', 33, 'Left-Back', 23, 183, 8000000, 1000000),
+('Connor Roberts', 'Wales', 26, 'Right-Back', 14, 183, 20000000, 2500000),
+('Josh Benson', 'Ireland', 22, 'Central Midfield', 29, 188, 15000000, 2000000),
+('Bailey Peacock-Farrell', 'Northern Ireland', 25, 'Goalkeeper', 15, 197, 10000000, 1500000),
+('Nathan Collins', 'Ireland', 21, 'Center-Back', 14, 193, 25000000, 3000000),
+('Lewis Richardson', 'England', 18, 'Striker', 37, 178, 10000000, 1500000),
+('Will Norris', 'England', 28, 'Goalkeeper', 28, 185, 5000000, 1000000),
+('Robbie Brady', 'Ireland', 30, 'Left Midfield', 12, 178, 10000000, 1500000),
+('Jimmy Dunne', 'Ireland', 24, 'Center-Back', 22, 191, 8000000, 1000000),
+('Anthony Glennon', 'Ireland', 22, 'Left-Back', 28, 178, 10000000, 1500000),
+('Mace Goodridge', 'England', 20, 'Central Midfield', 47, 175, 10000000, 1500000),
+('Ashley Barnes', 'Austria', 32, 'Striker', 10, 186, 15000000, 2000000),
+('Lukas Jensen', 'Denmark', 21, 'Goalkeeper', 52, 193, 8000000, 1000000);
+
+-- Wolves
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Jose Sa', 'Portugal', 29, 'Goalkeeper', 1, 187, 20000000, 2500000),
+('Matija Sarkic', 'Serbia', 25, 'Goalkeeper', 21, 198, 500000, 500000),
+('Nathan Collins', 'Ireland', 21, 'Defender', 5, 190, 22000000, 1500000),
+('Max Kilman', 'England', 25, 'Defender', 22, 198, 18000000, 1500000),
+('Conor Coady', 'England', 29, 'Defender', 16, 186, 14000000, 3000000),
+('Jonny', 'Spain', 28, 'Defender', 19, 174, 12000000, 2000000),
+('Rayan Ait-Nouri', 'France', 21, 'Defender', 3, 179, 18000000, 1500000),
+('Nelson Semedo', 'Portugal', 28, 'Defender', 2, 173, 14000000, 3000000),
+('Toti', 'Spain', 23, 'Defender', 24, 186, 8000000, 1000000),
+('Hugo Bueno', 'Spain', 21, 'Defender', 37, 179, 10000000, 1000000),
+('Ruben Neves', 'Portugal', 25, 'Midfielder', 8, 179, 32000000, 3500000),
+('Joao Moutinho', 'Portugal', 36, 'Midfielder', 28, 172, 5000000, 2500000),
+
+('Leander Dendoncker', 'Belgium', 27, 'Midfielder', 23, 190, 14000000, 2000000),
+('Matheus Nunes', 'Portugal', 24, 'Midfielder', 27, 186, 30000000, 2500000),
+('Pedro Neto', 'Portugal', 22, 'Forward', 7, 170, 25000000, 2000000),
+('Daniel Podence', 'Portugal', 26, 'Forward', 10, 165, 20000000, 1500000),
+('Hwang Hee-chan', 'South Korea', 26, 'Forward', 9, 179, 14000000, 2500000),
+('Raul Jimenez', 'Mexico', 31, 'Forward', 9, 187, 14000000, 4000000),
+('Diego Costa', 'Spain', 33, 'Forward', 19, 185, 5000000, 3000000),
+('Sasa Kalajdzic', 'Austria', 25, 'Forward', 14, 196, 18000000, 2000000),
+('Fabio Silva', 'Portugal', 20, 'Forward', 17, 186, 14000000, 1000000),
+('Chem Campbell', 'Republic of Ireland', 19, 'Forward', 47, 180, 10000000, 500000);
+
+-- Liverpool
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Alisson Becker', 'Brazil', 30, 'Goalkeeper', 1, 191, 80000000, 10000000),
+('Trent Alexander-Arnold', 'England', 23, 'Right-Back', 66, 180, 120000000, 15000000),
+('Andrew Robertson', 'Scotland', 28, 'Left-Back', 26, 178, 100000000, 12000000),
+('Virgil van Dijk', 'Netherlands', 31, 'Center-Back', 4, 193, 100000000, 12000000),
+('Joel Matip', 'Cameroon', 31, 'Center-Back', 32, 195, 40000000, 5000000),
+('Fabinho', 'Brazil', 29, 'Defensive Midfield', 6, 188, 60000000, 7000000),
+('Jordan Henderson', 'England', 32, 'Central Midfield', 14, 182, 60000000, 7000000),
+('Thiago Alcântara', 'Spain', 31, 'Central Midfield', 6, 174, 50000000, 6000000),
+('Mohamed Salah', 'Egypt', 30, 'Forward', 11, 175, 150000000, 20000000),
+('Sadio Mané', 'Senegal', 30, 'Forward', 10, 175, 120000000, 15000000),
+('Roberto Firmino', 'Brazil', 30, 'Striker', 9, 181, 80000000, 10000000),
+('Diogo Jota', 'Portugal', 25, 'Forward', 20, 178, 70000000, 9000000),
+('Naby Keïta', 'Guinea', 27, 'Central Midfield', 8, 172, 40000000, 5000000),
+('Curtis Jones', 'England', 21, 'Central Midfield', 17, 183, 50000000, 6000000),
+('James Milner', 'England', 36, 'Central Midfield', 7, 175, 5000000, 1000000),
+('Divock Origi', 'Belgium', 27, 'Forward', 27, 188, 30000000, 4000000),
+('Konstantinos Tsimikas', 'Greece', 26, 'Left-Back', 21, 169, 15000000, 2000000),
+('Joe Gomez', 'England', 25, 'Center-Back', 12, 188, 50000000, 6000000),
+('Adrián', 'Spain', 35, 'Goalkeeper', 13, 188, 5000000, 1000000),
+('Caoimhín Kelleher', 'Ireland', 23, 'Goalkeeper', 62, 191, 10000000, 1500000),
+('Takumi Minamino', 'Japan', 27, 'Forward', 18, 174, 20000000, 2500000),
+('Tyler Morton', 'England', 20, 'Central Midfield', 48, 183, 10000000, 1500000),
+('Harvey Elliott', 'England', 19, 'Right Midfield', 67, 176, 30000000, 4000000),
+('Ibrahima Konaté', 'France', 22, 'Center-Back', 5, 194, 40000000, 5000000),
+('Nathaniel Phillips', 'England', 25, 'Center-Back', 47, 193, 25000000, 3000000),
+('Billy Koumetio', 'France', 19, 'Center-Back', 89, 193, 15000000, 2000000),
+('Cristiano Ronaldo', 'Portugal', 37, 'Forward', 7, 187, 60000000, 8000000),
+('Mohamed Simakan', 'France', 22, 'Right-Back', 92, 187, 30000000, 4000000),
+('Isak Bergmann Jóhannesson', 'Iceland', 19, 'Left Midfield', 57, 183, 20000000, 2500000);
+
+--Sheffield United
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Wes Foderingham', 'England', 31, 'Goalkeeper', 1, 191, 500000, 500000),
+('Adam Davies', 'Wales', 30, 'Goalkeeper', 12, 183, 500000, 500000),
+('Jake Eastwood', 'England', 25, 'Goalkeeper', 13, 193, 250000, 250000),
+('Chris Basham', 'England', 34, 'Defender', 6, 180, 500000, 500000),
+
+('John Egan', 'Ireland', 29, 'Defender', 6, 185, 2000000, 1000000),
+('Jack Robinson', 'England', 28, 'Defender', 3, 180, 500000, 500000),
+('George Baldock', 'England', 29, 'Defender', 2, 175, 1000000, 500000),
+('Enda Stevens', 'Ireland', 32, 'Defender', 15, 175, 500000, 500000),
+('Anel Ahmedhodzic', 'Bosnia', 23, 'Defender', 15, 192, 3000000, 500000),
+('Kyron Gordon', 'England', 19, 'Defender', 4, 185, 500000, 100000),
+('Sander Berge', 'Norway', 24, 'Midfielder', 8, 195, 14000000, 2000000),
+('Oliver Norwood', 'Northern Ireland', 31, 'Midfielder', 16, 170, 1000000, 500000),
+('John Fleck', 'Scotland', 30, 'Midfielder', 24, 175, 500000, 500000),
+('Ismaila Coulibaly', 'Mali', 21, 'Midfielder', 20, 187, 500000, 100000),
+
+('James McAtee', 'England', 19, 'Midfielder', 11, 170, 2000000, 200000),
+('Iliman Ndiaye', 'Senegal', 22, 'Forward', 11, 180, 7000000, 500000),
+('Oli McBurnie', 'Scotland', 26, 'Forward', 9, 188, 3000000, 1000000),
+('Billy Sharp', 'England', 36, 'Forward', 10, 180, 500000, 500000),
+('Rhian Brewster', 'England', 22, 'Forward', 24, 178, 6000000, 500000),
+('Daniel Jebbison', 'England', 19, 'Forward', 29, 183, 2000000, 200000),
+('Will Osula', 'England', 19, 'Forward', 41, 190, 1000000, 100000);
+
+-- Nottingham Forest
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Lewis Grabban', 'England', 34, 'Striker', 7, 185, 8000000, 1000000),
+('Joe Lolley', 'England', 29, 'Right Midfield', 23, 183, 12000000, 1500000),
+('Brice Samba', 'Congo', 28, 'Goalkeeper', 30, 188, 10000000, 1500000),
+('Ryan Yates', 'England', 24, 'Central Midfield', 4, 183, 15000000, 2000000),
+('Joe Worrall', 'England', 25, 'Center-Back', 2, 193, 25000000, 3000000),
+('Scott McKenna', 'Scotland', 25, 'Center-Back', 3, 188, 20000000, 2500000),
+('Cafú', 'Portugal', 28, 'Central Midfield', 14, 180, 12000000, 1500000),
+('Jordi Osei-Tutu', 'England', 23, 'Right-Back', 25, 178, 15000000, 2000000),
+('Philip Zinckernagel', 'Denmark', 26, 'Left Midfield', 11, 176, 20000000, 2500000),
+('Yuri Ribeiro', 'Portugal', 24, 'Left-Back', 13, 176, 15000000, 2000000),
+('Lyle Taylor', 'Montserrat', 32, 'Striker', 9, 183, 10000000, 1500000),
+('James Garner', 'England', 21, 'Central Midfield', 8, 183, 25000000, 3000000),
+('Loic Mbe Soh', 'France', 21, 'Center-Back', 5, 185, 20000000, 2500000),
+('Alex Mighten', 'England', 20, 'Forward', 23, 173, 15000000, 2000000),
+('Jayden Richardson', 'England', 22, 'Right-Back', 2, 175, 10000000, 1500000),
+('Brennan Johnson', 'Wales', 20, 'Left Midfield', 28, 178, 20000000, 2500000),
+('Tyler Blackett', 'England', 27, 'Left-Back', 29, 185, 10000000, 1500000),
+('Zach Clough', 'England', 26, 'Forward', 21, 178, 10000000, 1500000),
+('Joshua Kayode', 'Nigeria', 21, 'Striker', 35, 183, 10000000, 1500000),
+('Jordan Gabriel', 'England', 23, 'Right-Back', 37, 183, 10000000, 1500000),
+('Matty Cash', 'Poland', 25, 'Right-Back', 4, 178, 35000000, 4000000),
+('Tyrese Fornah', 'Sierra Leone', 23, 'Defensive Midfield', 26, 183, 15000000, 2000000),
+('Nicholas Ioannou', 'Cyprus', 26, 'Left-Back', 14, 183, 12000000, 1500000),
+('Jordi Osei-Tutu', 'England', 22, 'Right-Back', 22, 178, 10000000, 1500000),
+('Ethan Horvath', 'United States', 27, 'Goalkeeper', 12, 191, 15000000, 2000000),
+('Sammy Ameobi', 'Nigeria', 29, 'Left Midfield', 19, 193, 10000000, 1500000),
+('Luke Freeman', 'England', 30, 'Attacking Midfield', 10, 178, 10000000, 1500000),
+('Joe Garner', 'England', 33, 'Striker', 14, 183, 8000000, 1000000),
+('Abdoulaye Diallo', 'Senegal', 30, 'Goalkeeper', 30, 190, 8000000, 1000000),
+('Elliot Anderson', 'England', 19, 'Central Midfield', 41, 178, 15000000, 2000000);
+
+-- Crystal Palace
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Vicente Guaita', 'Spain', 35, 'Goalkeeper', 31, 186, 2000000, 2000000),
+('Sam Johnstone', 'England', 29, 'Goalkeeper', 24, 196, 8000000, 3000000),
+('Remi Matthews', 'England', 28, 'Goalkeeper', 27, 191, 500000, 500000),
+('Joachim Andersen', 'Denmark', 26, 'Defender', 4, 188, 20000000, 3000000),
+
+('Marc Guehi', 'England', 21, 'Defender', 6, 190, 25000000, 2000000),
+('Tyrick Mitchell', 'England', 22, 'Defender', 3, 170, 14000000, 1000000),
+('Joel Ward', 'England', 32, 'Defender', 2, 180, 2000000, 2000000),
+('Nathaniel Clyne', 'England', 31, 'Defender', 17, 173, 1000000, 1500000),
+('Chris Richards', 'USA', 22, 'Defender', 32, 188, 8000000, 1500000),
+('James Tomkins', 'England', 33, 'Defender', 5, 189, 2000000, 2500000),
+('Cheikhou Kouyate', 'Senegal', 32, 'Midfielder', 8, 197, 5000000, 3000000),
+('Luka Milivojevic', 'Serbia', 31, 'Midfielder', 4, 184, 8000000, 3500000),
+
+('Will Hughes', 'England', 27, 'Midfielder', 15, 174, 10000000, 2500000),
+('Eberechi Eze', 'England', 24, 'Midfielder', 10, 178, 22000000, 2000000),
+
+('Michael Olise', 'France', 20, 'Midfielder', 7, 175, 25000000, 1500000),
+('Jeffrey Schlupp', 'Ghana', 29, 'Midfielder', 19, 186, 8000000, 3000000),
+('Jairo Riedewald', 'Netherlands', 26, 'Midfielder', 44, 186, 5000000, 1500000),
+('Odsonne Edouard', 'France', 24, 'Forward', 9, 187, 20000000, 2500000),
+('Jean-Philippe Mateta', 'France', 25, 'Forward', 14, 192, 14000000, 2000000),
+('Jordan Ayew', 'Ghana', 30, 'Forward', 9, 178, 7000000, 2500000),
+
+('Wilfried Zaha', 'Ivory Coast', 29, 'Forward', 11, 180, 32000000, 5000000),
+('Christian Benteke', 'Belgium', 31, 'Forward', 20, 189, 8000000, 3500000);
+
+-- Chelsea
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Kepa Arrizabalaga', 'Spain', 28, 'Goalkeeper', 1, 185, 15000000, 7000000),
+('Edouard Mendy', 'Senegal', 30, 'Goalkeeper', 16, 197, 32000000, 7000000),
+
+('Marcus Bettinelli', 'England', 30, 'Goalkeeper', 13, 188, 2000000, 2000000),
+('Thiago Silva', 'Brazil', 38, 'Defender', 6, 183, 5000000, 9000000),
+('Antonio Rudiger', 'Germany', 29, 'Defender', 2, 190, 55000000, 9000000),
+
+('Andreas Christensen', 'Denmark', 26, 'Defender', 4, 187, 35000000, 5000000),
+('Cesar Azpilicueta', 'Spain', 32, 'Defender', 28, 178, 15000000, 7000000),
+('Trevoh Chalobah', 'England', 23, 'Defender', 14, 188, 20000000, 2000000),
+('Malang Sarr', 'France', 23, 'Defender', 31, 190, 12000000, 2000000),
+('Ben Chilwell', 'England', 25, 'Defender', 21, 179, 35000000, 6000000),
+('Marcos Alonso', 'Spain', 31, 'Defender', 3, 188, 15000000, 5000000),
+('Reece James', 'England', 22, 'Defender', 24, 180, 55000000, 4000000),
+('Jorginho', 'Italy', 30, 'Midfielder', 5, 180, 28000000, 7000000),
+
+('NGolo Kante', 'France', 31, 'Midfielder', 7, 168, 28000000, 13000000),
+('Mateo Kovacic', 'Croatia', 28, 'Midfielder', 8, 184, 35000000, 7000000),
+('Ruben Loftus-Cheek', 'England', 26, 'Midfielder', 12, 191, 20000000, 5000000),
+('Ross Barkley', 'England', 28, 'Midfielder', 19, 185, 12000000, 5000000),
+('Mason Mount', 'England', 23, 'Midfielder', 19, 175, 65000000, 5000000),
+('Christian Pulisic', 'USA', 23, 'Forward', 10, 170, 38000000, 10000000),
+('Hakim Ziyech', 'Morocco', 29, 'Forward', 22, 179, 25000000, 6000000),
+
+('Callum Hudson-Odoi', 'England', 21, 'Forward', 20, 178, 32000000, 5000000),
+('Kai Havertz', 'Germany', 23, 'Forward', 29, 189, 65000000, 10000000),
+('Timo Werner', 'Germany', 26, 'Forward', 11, 180, 32000000, 10000000),
+('Romelu Lukaku', 'Belgium', 29, 'Forward', 9, 191, 45000000, 12000000),
+('Armando Broja', 'Albania', 21, 'Forward', 18, 191, 15000000, 2000000);
+
+-- Man city
+
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Ederson', 'Brazil', 29, 'Goalkeeper', 31, 187, 55000000, 8000000),
+('Stefan Ortega', 'Germany', 30, 'Goalkeeper', 18, 187, 5000000, 2000000),
+('Scott Carson', 'England', 37, 'Goalkeeper', 33, 191, 500000, 2000000),
+('Ruben Dias', 'Portugal', 25, 'Defender', 3, 187, 80000000, 7000000),
+('John Stones', 'England', 28, 'Defender', 5, 188, 35000000, 5000000),
+('Aymeric Laporte', 'Spain', 28, 'Defender', 14, 190, 50000000, 9000000),
+
+('Nathan Ake', 'Netherlands', 27, 'Defender', 6, 180, 35000000, 5000000),
+('Kyle Walker', 'England', 32, 'Defender', 2, 185, 20000000, 7000000),
+('Joao Cancelo', 'Portugal', 28, 'Defender', 7, 181, 65000000, 7000000),
+('Sergio Gomez', 'Spain', 21, 'Defender', 21, 175, 25000000, 2000000),
+('Rodri', 'Spain', 26, 'Midfielder', 16, 191, 80000000, 8000000),
+('Kevin De Bruyne', 'Belgium', 31, 'Midfielder', 17, 181, 80000000, 19000000),
+('Ilkay Gundogan', 'Germany', 32, 'Midfielder', 8, 180, 28000000, 10000000),
+('Bernardo Silva', 'Portugal', 28, 'Midfielder', 20, 173, 65000000, 7000000),
+
+('Kalvin Phillips', 'England', 27, 'Midfielder', 4, 185, 40000000, 5000000),
+('Phil Foden', 'England', 22, 'Midfielder', 47, 171, 80000000, 5000000),
+('Riyad Mahrez', 'Algeria', 31, 'Forward', 26, 179, 40000000, 8000000),
+('Jack Grealish', 'England', 27, 'Forward', 10, 180, 60000000, 13000000),
+('Julian Alvarez', 'Argentina', 22, 'Forward', 19, 170, 35000000, 5000000),
+('Cole Palmer', 'England', 20, 'Forward', 80, 178, 15000000, 2000000),
+('Erling Haaland', 'Norway', 22, 'Forward', 9, 195, 150000000, 40000000),
+
+('Liam Delap', 'England', 19, 'Forward', 77, 188, 10000000, 1000000),
+('Manuel Akanji', 'Switzerland', 27, 'Defender', 5, 187, 35000000, 5000000);
+
+-- Brighton
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Robert Sanchez', 'Spain', 24, 'Goalkeeper', 1, 197, 20000000, 2000000),
+('Jason Steele', 'England', 31, 'Goalkeeper', 13, 191, 1000000, 500000),
+('Kjell Scherpen', 'Netherlands', 22, 'Goalkeeper', 33, 203, 5000000, 500000),
+('Lewis Dunk', 'England', 30, 'Defender', 5, 193, 18000000, 4000000),
+('Adam Webster', 'England', 27, 'Defender', 4, 190, 14000000, 2500000),
+('Joel Veltman', 'Netherlands', 30, 'Defender', 34, 188, 10000000, 2000000),
+('Tariq Lamptey', 'England', 21, 'Defender', 2, 170, 14000000, 1000000),
+
+('Marc Cucurella', 'Spain', 24, 'Defender', 15, 170, 35000000, 3000000),
+('Pervis Estupinan', 'Ecuador', 24, 'Defender', 3, 168, 12000000, 2000000),
+('Jan Paul van Hecke', 'Netherlands', 22, 'Defender', 22, 192, 8000000, 1000000),
+('Pascal Gross', 'Germany', 31, 'Midfielder', 13, 174, 6000000, 2500000),
+('Alexis Mac Allister', 'Argentina', 24, 'Midfielder', 10, 180, 25000000, 2000000),
+('Moises Caicedo', 'Ecuador', 21, 'Midfielder', 25, 184, 25000000, 1500000),
+('Enock Mwepu', 'Zambia', 24, 'Midfielder', 18, 189, 12000000, 1500000),
+('Adam Lallana', 'England', 34, 'Midfielder', 8, 172, 1000000, 2500000),
+('Solly March', 'England', 27, 'Midfielder', 7, 182, 12000000, 2000000),
+('Danny Welbeck', 'England', 31, 'Forward', 9, 182, 5000000, 2500000),
+('Neal Maupay', 'France', 26, 'Forward', 7, 175, 14000000, 2000000),
+('Leandro Trossard', 'Belgium', 27, 'Forward', 11, 169, 20000000, 2500000),
+
+('Kaoru Mitoma', 'Japan', 25, 'Forward', 11, 170, 12000000, 1500000),
+('Deniz Undav', 'Germany', 26, 'Forward', 17, 192, 6000000, 1000000),
+('Julio Enciso', 'Paraguay', 18, 'Forward', 19, 173, 8000000, 500000),
+('Evan Ferguson', 'Ireland', 18, 'Forward', 24, 193, 5000000, 500000);
+
+-- Newcastle
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Nick Pope', 'England', 30, 'Goalkeeper', 1, 196, 22000000, 4000000),
+('Martin Dubravka', 'Slovakia', 33, 'Goalkeeper', 21, 186, 8000000, 3000000),
+('Karl Darlow', 'England', 31, 'Goalkeeper', 23, 188, 5000000, 2000000),
+('Kieran Trippier', 'England', 32, 'Defender', 13, 180, 22000000, 5000000),
+('Fabian Schar', 'Switzerland', 30, 'Defender', 5, 184, 14000000, 4000000),
+('Jamaal Lascelles', 'England', 28, 'Defender', 6, 187, 10000000, 3500000),
+('Dan Burn', 'England', 30, 'Defender', 3, 198, 8000000, 2500000),
+('Matt Targett', 'England', 26, 'Defender', 15, 179, 14000000, 3000000),
+('Emil Krafth', 'Sweden', 28, 'Defender', 17, 184, 7000000, 2000000),
+('Sven Botman', 'Netherlands', 22, 'Defender', 4, 195, 28000000, 3000000),
+
+('Jonjo Shelvey', 'England', 30, 'Midfielder', 8, 188, 8000000, 4500000),
+
+('Joe Willock', 'England', 23, 'Midfielder', 28, 185, 20000000, 2500000),
+('Joelinton', 'Brazil', 26, 'Midfielder', 7, 184, 25000000, 4000000),
+('Bruno Guimaraes', 'Brazil', 24, 'Midfielder', 39, 181, 35000000, 3500000),
+('Sean Longstaff', 'England', 24, 'Midfielder', 36, 185, 14000000, 2000000),
+('Miguel Almiron', 'Paraguay', 28, 'Forward', 24, 167, 22000000, 4000000),
+('Allan Saint-Maximin', 'France', 25, 'Forward', 10, 170, 28000000, 5000000),
+
+('Chris Wood', 'New Zealand', 30, 'Forward', 20, 187, 8000000, 3500000),
+('Callum Wilson', 'England', 30, 'Forward', 9, 178, 14000000, 5000000),
+('Jacob Murphy', 'England', 27, 'Forward', 11, 170, 8000000, 2500000),
+('Ryan Fraser', 'Scotland', 28, 'Forward', 24, 165, 10000000, 3000000),
+('Elliot Anderson', 'England', 20, 'Midfielder', 37, 185, 5000000, 500000),
+('Alexander Isak', 'Sweden', 22, 'Forward', 14, 190, 35000000, 3000000),
+('Anthony Gordon', 'England', 21, 'Forward', 19, 170, 28000000, 2000000);
+
 -- Buat fungsi di bawah untuk menghapus data player yang sama
 CREATE OR REPLACE FUNCTION delete_same_player()
 RETURNS VOID AS $$
@@ -403,7 +942,7 @@ BEGIN
    
     DELETE FROM players p1
     USING players p2
-    WHERE p1.player_id <> p2.player_id AND p1.name = s2.name AND p1.player_id > p2.player_id;
+    WHERE p1.player_id <> p2.player_id AND p1.name = p2.name AND p1.player_id > p2.player_id;
    
     RETURN;
 END;
