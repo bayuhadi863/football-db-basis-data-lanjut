@@ -239,3 +239,19 @@ VALUES
 (23, 811), (23, 812), (23, 814), (23, 815), (23, 816),
 (23, 817), (23, 818), (23, 819), (23, 820), (23, 821),
 (23, 822), (23, 824), (23, 825), (23, 826);
+
+-- Function untuk menghapus player_id yang sama
+CREATE OR REPLACE FUNCTION delete_duplicate_players()
+RETURNS VOID AS $$
+BEGIN
+    -- Menghapus data duplikat dengan player_id yang sama
+    DELETE FROM club_players
+    WHERE (player_id, club_player_id) NOT IN (
+        SELECT player_id, MIN(club_player_id)
+        FROM club_players
+        GROUP BY player_id
+    );
+END;
+$$ LANGUAGE plpgsql;
+
+select delete_duplicate_players();
