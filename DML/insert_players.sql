@@ -935,6 +935,124 @@ VALUES
 ('Alexander Isak', 'Sweden', 22, 'Forward', 14, 190, 35000000, 3000000),
 ('Anthony Gordon', 'England', 21, 'Forward', 19, 170, 28000000, 2000000);
 
+-- La Liga 
+-- FC Barcelona
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Lionel Messi', 'Argentina', 35, 'Forward', 10, 170, 80000000, 6000000),
+('Ansu Fati', 'Spain', 19, 'Forward', 22, 178, 60000000, 4000000),
+('Sergio Busquets', 'Spain', 33, 'Defensive Midfield', 5, 189, 25000000, 5000000),
+('Frenkie de Jong', 'Netherlands', 24, 'Central Midfield', 21, 180, 70000000, 5500000),
+('Pedri', 'Spain', 19, 'Attacking Midfield', 16, 173, 60000000, 4500000),
+('Gerard Piqué', 'Spain', 35, 'Centre Back', 3, 194, 30000000, 4000000),
+('Jordi Alba', 'Spain', 33, 'Left Back', 18, 170, 25000000, 4500000),
+('Sergi Roberto', 'Spain', 30, 'Right Back', 20, 178, 30000000, 5000000),
+('Memphis Depay', 'Netherlands', 28, 'Forward', 9, 176, 50000000, 5500000),
+('Ousmane Dembélé', 'France', 25, 'Forward', 11, 178, 40000000, 4000000),
+('Eric Garcia', 'Spain', 21, 'Centre Back', 24, 183, 25000000, 3000000),
+('Sergiño Dest', 'United States', 21, 'Right Back', 2, 175, 35000000, 3500000),
+('Clement Lenglet', 'France', 27, 'Centre Back', 15, 186, 35000000, 4000000),
+('Marc-André ter Stegen', 'Germany', 29, 'Goalkeeper', 1, 187, 60000000, 5500000),
+('Martin Braithwaite', 'Denmark', 30, 'Forward', 19, 182, 15000000, 2000000),
+('Ronald Araújo', 'Uruguay', 23, 'Centre Back', 4, 191, 30000000, 3000000),
+('Philippe Coutinho', 'Brazil', 29, 'Attacking Midfield', 14, 172, 50000000, 5500000),
+('Pedro', 'Spain', 25, 'Forward', 17, 170, 40000000, 4500000),
+('Miralem Pjanic', 'Bosnia and Herzegovina', 32, 'Central Midfield', 8, 180, 25000000, 3000000),
+('Samuel Umtiti', 'France', 28, 'Centre Back', 23, 182, 25000000, 3000000);
+
+-- Real Madrid
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Thibaut Courtois', 'Belgium', 30, 'Goalkeeper', 1, 199, 80000000, 7000000),
+('Ferland Mendy', 'France', 26, 'Left Back', 23, 180, 60000000, 4000000),
+('Éder Militão', 'Brazil', 24, 'Centre Back', 3, 187, 50000000, 4500000),
+('Casemiro', 'Brazil', 30, 'Defensive Midfield', 14, 185, 70000000, 6000000),
+('Karim Benzema', 'France', 34, 'Forward', 9, 185, 80000000, 7000000),
+('David Alaba', 'Austria', 29, 'Centre Back', 4, 180, 60000000, 5000000),
+('Dani Carvajal', 'Spain', 30, 'Right Back', 2, 173, 35000000, 4000000),
+('Luka Modric', 'Croatia', 36, 'Central Midfield', 10, 172, 25000000, 4000000),
+('Vinícius Júnior', 'Brazil', 21, 'Forward', 20, 176, 70000000, 6000000),
+('Rodrygo', 'Brazil', 21, 'Forward', 25, 174, 60000000, 5000000),
+('Nacho Fernandez', 'Spain', 32, 'Centre Back', 6, 180, 20000000, 2500000),
+('Miguel Gutiérrez', 'Spain', 20, 'Left Back', 15, 183, 25000000, 3000000),
+('Federico Valverde', 'Uruguay', 24, 'Central Midfield', 15, 182, 70000000, 6000000),
+('Thibaut Courtois', 'Belgium', 30, 'Goalkeeper', 1, 199, 80000000, 7000000),
+('Álvaro Odriozola', 'Spain', 26, 'Right Back', 19, 178, 25000000, 3000000),
+('Eduardo Camavinga', 'France', 19, 'Central Midfield', 16, 183, 70000000, 6000000),
+('Marco Asensio', 'Spain', 26, 'Forward', 11, 182, 60000000, 5000000),
+('Isco', 'Spain', 30, 'Attacking Midfield', 22, 176, 40000000, 4000000),
+('Marcelo', 'Brazil', 34, 'Left Back', 12, 174, 20000000, 2500000),
+('Luka Jovic', 'Serbia', 24, 'Forward', 21, 182, 30000000, 3000000);
+
+-- Atletico Madrid
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Jan Oblak', 'Slovenia', 29, 'Goalkeeper', 1, 188, 90000000, 7000000),
+('Renan Lodi', 'Brazil', 24, 'Left Back', 12, 183, 50000000, 4000000),
+('José Giménez', 'Uruguay', 27, 'Centre Back', 2, 185, 60000000, 5000000),
+('Koke', 'Spain', 30, 'Central Midfield', 6, 176, 70000000, 6000000),
+('João Félix', 'Portugal', 22, 'Forward', 7, 181, 80000000, 7000000),
+('Stefan Savic', 'Montenegro', 31, 'Centre Back', 15, 187, 25000000, 3000000),
+('Ángel Correa', 'Argentina', 27, 'Forward', 10, 171, 60000000, 5000000),
+('Luis Suárez', 'Uruguay', 35, 'Forward', 9, 182, 20000000, 4000000),
+('Thomas Lemar', 'France', 26, 'Left Winger', 11, 170, 30000000, 4000000),
+('Mario Hermoso', 'Spain', 26, 'Centre Back', 22, 187, 35000000, 4000000),
+('Saúl Ñíguez', 'Spain', 27, 'Central Midfield', 17, 184, 60000000, 5000000),
+('Geoffrey Kondogbia', 'Central African Republic', 29, 'Defensive Midfield', 4, 188, 35000000, 4000000),
+('Kieran Trippier', 'England', 31, 'Right Back', 23, 178, 30000000, 4000000),
+('Thomas Partey', 'Ghana', 29, 'Central Midfield', 5, 185, 70000000, 6000000),
+('Matheus Cunha', 'Brazil', 22, 'Forward', 19, 185, 50000000, 5000000),
+('Ivo Grbić', 'Croatia', 25, 'Goalkeeper', 13, 195, 20000000, 3000000),
+('Héctor Herrera', 'Mexico', 32, 'Central Midfield', 16, 183, 35000000, 4000000),
+('Moussa Dembélé', 'France', 26, 'Forward', 18, 183, 40000000, 4000000),
+('Sime Vrsaljko', 'Croatia', 30, 'Right Back', 2, 183, 25000000, 3000000),
+('Ivan Šaponjić', 'Serbia', 24, 'Forward', 29, 190, 15000000, 2000000);
+
+-- Sevilla
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Yassine Bounou', 'Morocco', 31, 'Goalkeeper', 13, 198, 25000000, 3000000),
+('Marcos Acuña', 'Argentina', 29, 'Left Back', 8, 172, 30000000, 4000000),
+('Jules Koundé', 'France', 23, 'Centre Back', 12, 182, 60000000, 6000000),
+('Joan Jordán', 'Spain', 27, 'Central Midfield', 24, 176, 35000000, 4000000),
+('Erik Lamela', 'Argentina', 30, 'Right Winger', 17, 183, 25000000, 3500000),
+('Suso', 'Spain', 28, 'Right Winger', 11, 177, 25000000, 3500000),
+('Diego Carlos', 'Brazil', 28, 'Centre Back', 20, 186, 40000000, 5000000),
+('Munir El Haddadi', 'Spain', 26, 'Left Winger', 19, 172, 20000000, 3000000),
+('Ivan Rakitić', 'Croatia', 34, 'Central Midfield', 10, 184, 15000000, 2500000),
+('Óscar Rodríguez', 'Spain', 25, 'Attacking Midfield', 22, 179, 30000000, 4000000),
+('Youssef En-Nesyri', 'Morocco', 25, 'Forward', 15, 192, 50000000, 6000000),
+('Papu Gómez', 'Argentina', 34, 'Attacking Midfield', 17, 165, 20000000, 3500000),
+('Bryan Gil', 'Spain', 20, 'Left Winger', 11, 178, 40000000, 5000000),
+('Aleix Vidal', 'Spain', 32, 'Right Back', 22, 176, 15000000, 2500000),
+('Karim Rekik', 'Netherlands', 27, 'Centre Back', 3, 186, 25000000, 3500000),
+('Luuk de Jong', 'Netherlands', 31, 'Forward', 19, 188, 20000000, 3000000);
+
+-- Valencia CF
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Jasper Cillessen', 'Netherlands', 33, 'Goalkeeper', 13, 185, 10000000, 2500000),
+('José Gayà', 'Spain', 27, 'Left Back', 18, 174, 45000000, 5000000),
+('Hugo Guillamón', 'Spain', 21, 'Centre Back', 5, 182, 25000000, 3000000),
+('Carlos Soler', 'Spain', 25, 'Central Midfield', 8, 180, 60000000, 7000000),
+('Manu Vallejo', 'Spain', 25, 'Left Winger', 7, 172, 35000000, 4000000),
+('Daniel Wass', 'Denmark', 32, 'Right Back', 18, 185, 20000000, 2500000),
+('Thierry Correia', 'Portugal', 22, 'Right Back', 21, 177, 35000000, 4000000),
+('Álvaro González', 'Spain', 32, 'Centre Back', 4, 185, 20000000, 3000000),
+('Uroš Račić', 'Serbia', 24, 'Central Midfield', 21, 190, 50000000, 6000000),
+('Maxi Gómez', 'Uruguay', 25, 'Forward', 22, 186, 40000000, 5000000),
+('Gabriel Paulista', 'Brazil', 31, 'Centre Back', 5, 185, 20000000, 3000000),
+('Denis Cheryshev', 'Russia', 31, 'Left Winger', 11, 178, 15000000, 2000000),
+('Jason', 'Spain', 26, 'Right Winger', 15, 176, 30000000, 4000000),
+('Mouctar Diakhaby', 'France', 25, 'Centre Back', 12, 192, 25000000, 3500000),
+('Gonçalo Guedes', 'Portugal', 25, 'Left Winger', 7, 179, 50000000, 6000000),
+('Jaume Doménech', 'Spain', 31, 'Goalkeeper', 1, 183, 20000000, 2500000),
+('José Luis Gayà', 'Spain', 26, 'Left Back', 6, 175, 40000000, 5000000),
+('Vicente Esquerdo', 'Spain', 18, 'Central Midfield', 30, 176, 5000000, 1000000),
+('Hugo Duro', 'Spain', 22, 'Forward', 17, 180, 25000000, 3000000),
+('Yunus Musah', 'United States', 19, 'Right Winger', 23, 185, 45000000, 5000000);
+
+
 -- Buat fungsi di bawah untuk menghapus data player yang sama
 CREATE OR REPLACE FUNCTION delete_same_player()
 RETURNS VOID AS $$
