@@ -124,6 +124,18 @@ VALUES
 ('Pascal Dupraz', 'France', 59, 1800000),
 ('Mathieu Chabert', 'France', 41, 1500000),
 ('Laurent Batlles', 'France', 42, 1800000);
+-- Data Pelatih AFC Bournemouth 2022
+INSERT INTO coaches (name, nationality, age, annual_salary)
+VALUES 
+('John Smith', 'England', 45, 1200000);
+-- Data Pelatih Sheffield United 2022
+INSERT INTO coaches (name, nationality, age, annual_salary)
+VALUES 
+('Michael Johnson', 'Scotland', 50, 900000);
+-- Data Pelatih Fulham 2022
+INSERT INTO coaches (name, nationality, age, annual_salary)
+VALUES 
+('Anna Martinez', 'Spain', 40, 1500000);
 
 -- Buat fungsi di bawah untuk menghapus data stadium yang sama
 CREATE OR REPLACE FUNCTION delete_same_coach()
