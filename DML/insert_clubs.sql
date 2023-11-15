@@ -53,6 +53,12 @@ VALUES
 ('RB Leipzig', 'Germany', 'Leipzig', 2009, 84, 3, 86),
 ('Bayer 04 Leverkusen', 'Germany', 'Leverkusen', 1904, 86, 3, 83);
 
+INSERT INTO clubs (name, country, city, establishment_year, stadium_id, league_id, coach_id)
+VALUES 
+('Juventus', 'Italy', 'Torino', 1903, 102, 4, 58),
+('Inter Milan', 'Italy', 'Milan', 1908, 4, 4, 42),
+('AS Roma', 'Italy', 'Roma', 1927, 103, 4, 145);
+
 
 CREATE OR REPLACE FUNCTION delete_same_clubs()
 RETURNS VOID AS $$

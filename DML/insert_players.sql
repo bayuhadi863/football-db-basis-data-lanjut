@@ -1052,6 +1052,167 @@ VALUES
 ('Hugo Duro', 'Spain', 22, 'Forward', 17, 180, 25000000, 3000000),
 ('Yunus Musah', 'United States', 19, 'Right Winger', 23, 185, 45000000, 5000000);
 
+-- Real Sociedad
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Mikel Oyarzabal', 'Spain', 24, 'Left Midfield', 10, 183, 80000000, 9000000),
+('David Silva', 'Spain', 35, 'Attacking Midfield', 21, 173, 5000000, 1000000),
+('Alexander Isak', 'Sweden', 22, 'Striker', 9, 190, 70000000, 8000000),
+('Martín Zubimendi', 'Spain', 23, 'Central Midfield', 5, 184, 30000000, 4000000),
+('Mikel Merino', 'Spain', 26, 'Central Midfield', 8, 188, 50000000, 6000000),
+('Ander Guevara', 'Spain', 24, 'Central Midfield', 16, 182, 30000000, 4000000),
+('Portu', 'Spain', 30, 'Right Midfield', 12, 170, 25000000, 3000000),
+('Igor Zubeldia', 'Spain', 24, 'Defensive Midfield', 5, 184, 40000000, 5000000),
+('Robin Le Normand', 'France', 25, 'Center-Back', 6, 182, 35000000, 4000000),
+('Nacho Monreal', 'Spain', 35, 'Left-Back', 23, 178, 2000000, 500000),
+('Jon Bautista', 'Spain', 26, 'Striker', 14, 183, 10000000, 1500000),
+('Aritz Elustondo', 'Spain', 27, 'Center-Back', 3, 184, 30000000, 4000000),
+('Zubeldia', 'Spain', 25, 'Central Midfield', 5, 184, 40000000, 5000000),
+('Jon Guridi', 'Spain', 26, 'Central Midfield', 14, 183, 30000000, 4000000),
+('Modibo Sagnan', 'France', 22, 'Center-Back', 2, 195, 15000000, 2000000),
+('Alexander Sorloth', 'Norway', 26, 'Striker', 9, 195, 40000000, 5000000),
+('Mikel Merino', 'Spain', 26, 'Central Midfield', 8, 188, 50000000, 6000000),
+('Carlos Fernández', 'Spain', 26, 'Striker', 11, 184, 30000000, 4000000),
+('Modibo Sagnan', 'France', 22, 'Center-Back', 2, 195, 15000000, 2000000),
+('Nacho Monreal', 'Spain', 35, 'Left-Back', 23, 178, 2000000, 500000),
+('Martín Zubimendi', 'Spain', 23, 'Central Midfield', 5, 184, 30000000, 4000000),
+('Jon Bautista', 'Spain', 26, 'Striker', 14, 183, 10000000, 1500000),
+('Andoni Gorosabel', 'Spain', 26, 'Right-Back', 2, 180, 30000000, 4000000),
+('Carlos Fernández', 'Spain', 26, 'Striker', 11, 184, 30000000, 4000000),
+('Alexander Sorloth', 'Norway', 26, 'Striker', 9, 195, 40000000, 5000000),
+('Aritz Elustondo', 'Spain', 27, 'Center-Back', 3, 184, 30000000, 4000000),
+('Zubeldia', 'Spain', 25, 'Central Midfield', 5, 184, 40000000, 5000000),
+('David Silva', 'Spain', 35, 'Attacking Midfield', 21, 173, 5000000, 1000000),
+('Portu', 'Spain', 30, 'Right Midfield', 12, 170, 25000000, 3000000);
+
+-- Espanyol
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('David López', 'Spain', 32, 'Defensive Midfield', 4, 183, 6000000, 700000),
+('Raúl de Tomás', 'Spain', 27, 'Striker', 9, 184, 20000000, 2500000),
+('Víctor Campuzano', 'Spain', 24, 'Striker', 7, 186, 8000000, 1000000),
+('Leandro Cabrera', 'Uruguay', 31, 'Center-Back', 17, 186, 12000000, 1500000),
+('Embarba', 'Spain', 29, 'Right Midfield', 7, 172, 10000000, 1200000),
+('Óscar Melendo', 'Spain', 24, 'Right Midfield', 8, 175, 15000000, 2000000),
+('Wu Lei', 'China', 30, 'Striker', 24, 172, 5000000, 1000000),
+('Nicolás Melamed', 'Spain', 20, 'Attacking Midfield', 22, 182, 30000000, 4000000),
+('Fran Mérida', 'Spain', 32, 'Central Midfield', 14, 173, 3000000, 400000),
+('Javi Puado', 'Spain', 23, 'Right Midfield', 12, 180, 20000000, 2500000),
+('Dídac Vilà', 'Spain', 32, 'Left-Back', 12, 181, 8000000, 1000000),
+('Bernardo Espinosa', 'Colombia', 32, 'Center-Back', 5, 192, 8000000, 1000000),
+('Adrián Embarba', 'Spain', 29, 'Right Midfield', 7, 172, 10000000, 1200000),
+('Wu Lei', 'China', 30, 'Striker', 24, 172, 5000000, 1000000),
+('Nicolás Melamed', 'Spain', 20, 'Attacking Midfield', 22, 182, 30000000, 4000000),
+('Fran Mérida', 'Spain', 32, 'Central Midfield', 14, 173, 3000000, 400000),
+('Javi Puado', 'Spain', 23, 'Right Midfield', 12, 180, 20000000, 2500000),
+('Dídac Vilà', 'Spain', 32, 'Left-Back', 12, 181, 8000000, 1000000),
+('Bernardo Espinosa', 'Colombia', 32, 'Center-Back', 5, 192, 8000000, 1000000),
+('Adrián Embarba', 'Spain', 29, 'Right Midfield', 7, 172, 10000000, 1200000);
+
+-- Granada
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Domingos Duarte', 'Portugal', 27, 'Center-Back', 22, 187, 15000000, 2000000),
+('Ángel Montoro', 'Spain', 33, 'Central Midfield', 16, 175, 8000000, 1000000),
+('Soldado', 'Spain', 36, 'Striker', 9, 179, 1000000, 300000),
+('Carlos Neva', 'Spain', 24, 'Left-Back', 18, 178, 30000000, 4000000),
+('Luis Suárez', 'Colombia', 23, 'Striker', 7, 186, 60000000, 7000000),
+('Yan Brice', 'Cameroon', 27, 'Center-Back', 4, 190, 5000000, 1000000),
+('Germán Sánchez', 'Spain', 35, 'Center-Back', 6, 185, 3000000, 400000),
+('Ángel Montoro', 'Spain', 33, 'Central Midfield', 16, 175, 8000000, 1000000),
+('Yan Brice', 'Cameroon', 27, 'Center-Back', 4, 190, 5000000, 1000000),
+('Rui Silva', 'Portugal', 28, 'Goalkeeper', 1, 185, 3000000, 400000),
+('Alberto Soro', 'Spain', 22, 'Right Midfield', 21, 173, 10000000, 1200000),
+('Luis Milla', 'Spain', 26, 'Central Midfield', 21, 184, 12000000, 1500000),
+('Quini', 'Spain', 22, 'Right Midfield', 12, 183, 5000000, 1000000),
+('Carlos Neva', 'Spain', 24, 'Left-Back', 18, 178, 30000000, 4000000),
+('Luis Suárez', 'Colombia', 23, 'Striker', 7, 186, 60000000, 7000000),
+('Domingos Duarte', 'Portugal', 27, 'Center-Back', 22, 187, 15000000, 2000000),
+('Ángel Montoro', 'Spain', 33, 'Central Midfield', 16, 175, 8000000, 1000000),
+('Yan Brice', 'Cameroon', 27, 'Center-Back', 4, 190, 5000000, 1000000),
+('Alberto Soro', 'Spain', 22, 'Right Midfield', 21, 173, 10000000, 1200000),
+('Rui Silva', 'Portugal', 28, 'Goalkeeper', 1, 185, 3000000, 400000);
+
+-- Levante
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Roger Martí', 'Spain', 30, 'Striker', 9, 180, 30000000, 4000000),
+('Enis Bardhi', 'North Macedonia', 26, 'Attacking Midfield', 10, 172, 25000000, 3000000),
+('José Campaña', 'Spain', 28, 'Central Midfield', 24, 181, 15000000, 2000000),
+('Jorge de Frutos', 'Spain', 24, 'Right Midfield', 15, 179, 20000000, 2500000),
+('Rubén Vezo', 'Portugal', 28, 'Center-Back', 4, 187, 25000000, 3000000),
+('Carlos Clerc', 'Spain', 30, 'Left-Back', 3, 175, 8000000, 1000000),
+('Rober Pier', 'Spain', 26, 'Center-Back', 6, 184, 10000000, 1500000),
+('Dani Gómez', 'Spain', 23, 'Striker', 11, 185, 30000000, 4000000),
+('Sonny Laiton', 'Spain', 20, 'Central Midfield', 29, 174, 5000000, 1000000),
+('Coke', 'Spain', 34, 'Right-Back', 2, 179, 8000000, 1000000),
+('Gonzalo Melero', 'Spain', 27, 'Central Midfield', 23, 192, 30000000, 4000000),
+('Roger Martí', 'Spain', 30, 'Striker', 9, 180, 30000000, 4000000),
+('Enis Bardhi', 'North Macedonia', 26, 'Attacking Midfield', 10, 172, 25000000, 3000000),
+('José Campaña', 'Spain', 28, 'Central Midfield', 24, 181, 15000000, 2000000),
+('Jorge de Frutos', 'Spain', 24, 'Right Midfield', 15, 179, 20000000, 2500000),
+('Rubén Vezo', 'Portugal', 28, 'Center-Back', 4, 187, 25000000, 3000000),
+('Carlos Clerc', 'Spain', 30, 'Left-Back', 3, 175, 8000000, 1000000),
+('Rober Pier', 'Spain', 26, 'Center-Back', 6, 184, 10000000, 1500000),
+('Dani Gómez', 'Spain', 23, 'Striker', 11, 185, 30000000, 4000000),
+('Sonny Laiton', 'Spain', 20, 'Central Midfield', 29, 174, 5000000, 1000000),
+('Coke', 'Spain', 34, 'Right-Back', 2, 179, 8000000, 1000000),
+('Gonzalo Melero', 'Spain', 27, 'Central Midfield', 23, 192, 30000000, 4000000);
+
+-- Osasuna
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Rubén García', 'Spain', 28, 'Left Midfield', 11, 183, 20000000, 2500000),
+('Ante Budimir', 'Croatia', 30, 'Striker', 9, 189, 15000000, 2000000),
+('Jon Moncayola', 'Spain', 23, 'Central Midfield', 24, 175, 25000000, 3000000),
+('Darko Brasanac', 'Serbia', 29, 'Central Midfield', 6, 182, 10000000, 1500000),
+('Unai García', 'Spain', 24, 'Center-Back', 2, 185, 25000000, 3000000),
+('Oier Sanjurjo', 'Spain', 32, 'Defensive Midfield', 5, 186, 5000000, 1000000),
+('Nacho Vidal', 'Spain', 26, 'Right-Back', 2, 178, 8000000, 1000000),
+('Kike Barja', 'Spain', 23, 'Right Midfield', 18, 180, 15000000, 2000000),
+('David García', 'Spain', 28, 'Center-Back', 16, 185, 15000000, 2000000),
+('Lucas Torró', 'Spain', 27, 'Defensive Midfield', 15, 183, 15000000, 2000000),
+('Jony', 'Spain', 29, 'Left Midfield', 20, 178, 8000000, 1000000),
+('Enrique Barja', 'Spain', 24, 'Right Midfield', 18, 180, 15000000, 2000000),
+('Juan Cruz', 'Spain', 23, 'Left-Back', 3, 183, 15000000, 2000000),
+('Chimy Ávila', 'Argentina', 27, 'Striker', 9, 172, 25000000, 3000000),
+('Facundo Roncaglia', 'Argentina', 34, 'Center-Back', 2, 183, 3000000, 700000),
+('Inigo Pérez', 'Spain', 34, 'Central Midfield', 8, 183, 3000000, 700000),
+('Adrián López', 'Spain', 34, 'Forward', 10, 183, 3000000, 700000),
+('Manu Sánchez', 'Spain', 21, 'Left-Back', 22, 182, 15000000, 2000000),
+('David García', 'Spain', 28, 'Center-Back', 16, 185, 15000000, 2000000),
+('Chimy Ávila', 'Argentina', 27, 'Striker', 9, 172, 25000000, 3000000);
+
+-- Getafe
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Carles Aleñá', 'Spain', 23, 'Central Midfield', 8, 180, 15000000, 2000000),
+('José Macías', 'Mexico', 22, 'Striker', 19, 184, 20000000, 2500000),
+('Enes Ünal', 'Turkey', 24, 'Striker', 7, 183, 15000000, 2000000),
+('Djené Dakonam', 'Togo', 30, 'Center-Back', 3, 187, 40000000, 5000000),
+('Mauro Arambarri', 'Uruguay', 25, 'Central Midfield', 5, 186, 30000000, 4000000),
+('Santiago Munez', 'Spain', 21, 'Right Midfield', 23, 175, 15000000, 2000000),
+('Allan Nyom', 'Cameroon', 33, 'Right-Back', 2, 186, 8000000, 1000000),
+('Sergio López', 'Spain', 21, 'Right Midfield', 22, 177, 15000000, 2000000),
+('David Timor', 'Spain', 31, 'Central Midfield', 21, 183, 5000000, 1000000),
+('José Bordalás', 'Spain', 57, 'Forward', 26, 175, 5000000, 1000000),
+('Damián Suárez', 'Uruguay', 34, 'Right-Back', 2, 179, 5000000, 1000000),
+('Ángel Rodríguez', 'Spain', 34, 'Striker', 9, 173, 5000000, 1000000),
+('Cuenca', 'Spain', 22, 'Center-Back', 18, 188, 30000000, 4000000),
+('Stéphane Bahoken', 'Cameroon', 29, 'Striker', 18, 185, 20000000, 2500000),
+('Jack Harper', 'Scotland', 25, 'Forward', 24, 183, 2000000, 500000),
+('Nemanja Maksimović', 'Serbia', 26, 'Central Midfield', 14, 184, 20000000, 2500000),
+('Juan Iglesias', 'Spain', 21, 'Right Midfield', 23, 173, 2000000, 500000),
+('Santiago Munez', 'Spain', 21, 'Right Midfield', 23, 175, 15000000, 2000000),
+('José Macías', 'Mexico', 22, 'Striker', 19, 184, 20000000, 2500000),
+('David Timor', 'Spain', 31, 'Central Midfield', 21, 183, 5000000, 1000000),
+('Sergio López', 'Spain', 21, 'Right Midfield', 22, 177, 15000000, 2000000),
+('Stéphane Bahoken', 'Cameroon', 29, 'Striker', 18, 185, 20000000, 2500000),
+('Nemanja Maksimović', 'Serbia', 26, 'Central Midfield', 14, 184, 20000000, 2500000),
+('Mauro Arambarri', 'Uruguay', 25, 'Central Midfield', 5, 186, 30000000, 4000000),
+('Enes Ünal', 'Turkey', 24, 'Striker', 7, 183, 15000000, 2000000),
+('Cuenca', 'Spain', 22, 'Center-Back', 18, 188, 30000000, 4000000),
+('Damián Suárez', 'Uruguay', 34, 'Right-Back', 2, 179, 5000000, 1000000);
 
 -- Buat fungsi di bawah untuk menghapus data player yang sama
 CREATE OR REPLACE FUNCTION delete_same_player()

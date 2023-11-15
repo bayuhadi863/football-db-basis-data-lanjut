@@ -161,6 +161,10 @@ VALUES
 ('Javier Aguirre', 'Mexico', 63, 2500000),
 ('Luis Garcia Plaza', 'Spain', 49, 3000000);
 
+INSERT INTO coaches (name, nationality, age, annual_salary)
+VALUES 
+('Jose Mourinho', 'Portugal', 62, 8000000);
+
 
 -- Buat fungsi di bawah untuk menghapus data stadium yang sama
 CREATE OR REPLACE FUNCTION delete_same_coach()
