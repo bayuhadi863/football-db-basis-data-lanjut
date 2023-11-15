@@ -47,6 +47,12 @@ VALUES
 ('Alaves', 'Spain', 'Vitoria-Gasteiz', 1921, 139, 1, 143),
 ('Mallorca', 'Spain', 'Palma', 1916, 140, 1, 144);
 
+INSERT INTO clubs (name, country, city, establishment_year, stadium_id, league_id, coach_id)
+VALUES 
+('Borussia Dortmund', 'Germany', 'Dortmund', 1909, 12, 3, 92),
+('RB Leipzig', 'Germany', 'Leipzig', 2009, 84, 3, 86),
+('Bayer 04 Leverkusen', 'Germany', 'Leverkusen', 1904, 86, 3, 83);
+
 
 CREATE OR REPLACE FUNCTION delete_same_clubs()
 RETURNS VOID AS $$
