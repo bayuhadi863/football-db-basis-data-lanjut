@@ -137,6 +137,31 @@ INSERT INTO coaches (name, nationality, age, annual_salary)
 VALUES 
 ('Anna Martinez', 'Spain', 40, 1500000);
 
+-- Coach La Liga
+INSERT INTO coaches (name, nationality, age, annual_salary)
+VALUES 
+('Carlo Ancelotti', 'Italy', 62, 8000000),
+('Xavi Hernandez', 'Spain', 42, 6000000),
+('Diego Simeone', 'Argentina', 51, 10000000),
+('Julen Lopetegui', 'Spain', 55, 7000000),
+('Imanol Alguacil', 'Spain', 50, 4000000),
+('Jose Bordalas', 'Spain', 57, 3500000),
+('Manuel Pellegrini', 'Chile', 69, 5000000),
+('Mauricio Pochettino', 'Argentina', 49, 9000000),
+('Marcelino Garcia Toral', 'Spain', 56, 4500000),
+('Vicente Moreno', 'Spain', 47, 2500000),
+('Vicente Sanchez', 'Spain', 44, 3000000),
+('Diego Martinez', 'Spain', 41, 3500000),
+('Sergio Conceicao', 'Portugal', 47, 6000000),
+('Fernando Vazquez', 'Spain', 67, 2000000),
+('Michel', 'Spain', 59, 1800000),
+('Jagoba Arrasate', 'Spain', 43, 2200000),
+('Miguel Angel Ramirez', 'Spain', 47, 1800000),
+('Alvaro Cervera', 'Spain', 56, 1500000),
+('Javier Aguirre', 'Mexico', 63, 2500000),
+('Luis Garcia Plaza', 'Spain', 49, 3000000);
+
+
 -- Buat fungsi di bawah untuk menghapus data stadium yang sama
 CREATE OR REPLACE FUNCTION delete_same_coach()
 RETURNS VOID AS $$

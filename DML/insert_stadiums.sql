@@ -126,6 +126,31 @@ VALUES
 ('Stadio Sant Elia', 'Italy', 'Cagliari', 16012),
 ('Stadio Ezio Scida', 'Italy', 'Crotone', 16365);
 
+-- Stadion La Liga
+INSERT INTO stadiums (name, country, city, capacity)
+VALUES 
+('Santiago Bernabeu', 'Spain', 'Madrid', 81044),
+('Camp Nou', 'Spain', 'Barcelona', 99354),
+('Wanda Metropolitano', 'Spain', 'Madrid', 68456),
+('Ramón Sánchez Pizjuán', 'Spain', 'Seville', 43822),
+('Reale Arena', 'Spain', 'San Sebastian', 39959),
+('Mestalla', 'Spain', 'Valencia', 51000),
+('Estadio de la Cerámica', 'Spain', 'Villarreal', 23500),
+('Benito Villamarín', 'Spain', 'Seville', 60721),
+('San Mamés', 'Spain', 'Bilbao', 53289),
+('Estadio de Balaídos', 'Spain', 'Vigo', 29000),
+('RCDE Stadium', 'Spain', 'Barcelona', 40000),
+('Nuevo Los Cármenes', 'Spain', 'Granada', 19000),
+('Ciutat de València', 'Spain', 'Valencia', 25000),
+('José Zorrilla', 'Spain', 'Valladolid', 27000),
+('El Alcoraz', 'Spain', 'Huesca', 7638),
+('Estadio El Sadar', 'Spain', 'Pamplona', 23929),
+('Coliseum Alfonso Pérez', 'Spain', 'Getafe', 17393),
+('Estadio Ramón de Carranza', 'Spain', 'Cadiz', 25000),
+('Estadio Mendizorrotza', 'Spain', 'Vitoria-Gasteiz', 19553),
+('Visit Mallorca Stadium', 'Spain', 'Palma', 23142);
+
+
 -- Buat fungsi di bawah untuk menghapus data stadium yang sama
 CREATE OR REPLACE FUNCTION delete_same_stadium()
 RETURNS VOID AS $$

@@ -25,6 +25,28 @@ VALUES
 ('AFC Bournemouth', 'England', 'Bournemouth', 1881, 56, 1, 122),
 ('Fulham', 'England', 'Brentford', 1889, 52, 1, 124);
 
+INSERT INTO clubs (name, country, city, establishment_year, stadium_id, league_id, coach_id)
+VALUES 
+('Real Madrid', 'Spain', 'Madrid', 1902, 19, 1, 6),
+('Atletico Madrid', 'Spain', 'Madrid', 1903, 63, 1, 7),
+('Sevilla FC', 'Spain', 'Seville', 1890, 64, 1, 24),
+('Real Sociedad', 'Spain', 'San Sebastian', 1909, 125, 1, 129),
+('Valencia CF', 'Spain', 'Valencia', 1919, 65, 1, 34),
+('Villarreal CF', 'Spain', 'Villarreal', 1923, 67, 1, 131),
+('Real Betis', 'Spain', 'Seville', 1907, 68, 1, 11),
+('Athletic Bilbao', 'Spain', 'Bilbao', 1898, 66, 1, 133),
+('Celta Vigo', 'Spain', 'Vigo', 1923, 130, 1, 134),
+('Espanyol', 'Spain', 'Barcelona', 1900, 74, 1, 135),
+('Granada CF', 'Spain', 'Granada', 1931, 79, 1, 136),
+('Levante UD', 'Spain', 'Valencia', 1909, 133, 1, 137),
+('Real Valladolid', 'Spain', 'Valladolid', 1928, 134, 1, 138),
+('SD Huesca', 'Spain', 'Huesca', 1960, 135, 1, 139),
+('Osasuna', 'Spain', 'Pamplona', 1920, 136, 1, 140),
+('Getafe CF', 'Spain', 'Getafe', 1946, 73, 1, 141),
+('Cadiz CF', 'Spain', 'Cadiz', 1910, 138, 1, 142),
+('Alaves', 'Spain', 'Vitoria-Gasteiz', 1921, 139, 1, 143),
+('Mallorca', 'Spain', 'Palma', 1916, 140, 1, 144);
+
 
 CREATE OR REPLACE FUNCTION delete_same_clubs()
 RETURNS VOID AS $$
