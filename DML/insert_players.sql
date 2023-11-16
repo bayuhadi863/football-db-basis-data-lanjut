@@ -1214,6 +1214,32 @@ VALUES
 ('Cuenca', 'Spain', 22, 'Center-Back', 18, 188, 30000000, 4000000),
 ('Damián Suárez', 'Uruguay', 34, 'Right-Back', 2, 179, 5000000, 1000000);
 
+-- AC Milan
+-- Data Pemain AC Milan Musim 2023/2024
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Gianluigi Donnarumma', 'Italy', 24, 'Goalkeeper', 1, 196, 60000000, 8000000),
+('Theo Hernandez', 'France', 25, 'Left Back', 19, 184, 45000000, 6000000),
+('Alessio Romagnoli', 'Italy', 27, 'Centre Back', 13, 188, 35000000, 5000000),
+('Franck Kessie', 'Ivory Coast', 26, 'Central Midfield', 79, 183, 50000000, 7000000),
+('Zlatan Ibrahimovic', 'Sweden', 41, 'Striker', 11, 195, 10000000, 4000000),
+('Davide Calabria', 'Italy', 25, 'Right Back', 2, 181, 30000000, 4000000),
+('Ismael Bennacer', 'Algeria', 24, 'Central Midfield', 4, 176, 40000000, 6000000),
+('Simon Kjaer', 'Denmark', 33, 'Centre Back', 24, 191, 20000000, 3000000),
+('Brahim Diaz', 'Spain', 23, 'Attacking Midfield', 21, 178, 25000000, 4000000),
+('Rafael Leao', 'Portugal', 23, 'Left Winger', 17, 188, 30000000, 5000000),
+('Hakan Calhanoglu', 'Turkey', 28, 'Attacking Midfield', 10, 178, 35000000, 5000000),
+('Alessandro Florenzi', 'Italy', 32, 'Right Back', 2, 173, 18000000, 2500000),
+('Olivier Giroud', 'France', 36, 'Striker', 9, 192, 12000000, 3500000),
+('Ante Rebic', 'Croatia', 28, 'Left Winger', 12, 185, 25000000, 4000000),
+('Fikayo Tomori', 'England', 24, 'Centre Back', 23, 187, 30000000, 4500000),
+('Sandro Tonali', 'Italy', 22, 'Defensive Midfield', 8, 181, 40000000, 6000000),
+('Giovanni Di Lorenzo', 'Italy', 29, 'Right Back', 22, 183, 25000000, 4000000),
+('Tiémoué Bakayoko', 'France', 28, 'Defensive Midfield', 5, 184, 20000000, 3000000),
+('Rade Krunic', 'Bosnia and Herzegovina', 28, 'Central Midfield', 33, 184, 15000000, 2500000),
+('Mike Maignan', 'France', 26, 'Goalkeeper', 16, 195, 25000000, 4000000);
+
+
 -- Buat fungsi di bawah untuk menghapus data player yang sama
 CREATE OR REPLACE FUNCTION delete_same_player()
 RETURNS VOID AS $$
