@@ -1418,6 +1418,39 @@ VALUES
 ('Konrad de la Fuente', 'United States', 21, 'Left Winger', 29, 177, 25000000, 3000000),
 ('William Saliba', 'France', 21, 'Center-Back', 4, 192, 25000000, 3000000);
 
+-- Borussia Dortmund
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Erling Haaland', 'Norway', 21, 'Striker', 9, 194, 150000000, 12000000),
+('Marco Reus', 'Germany', 32, 'Attacking Midfield', 11, 180, 35000000, 8000000),
+('Jude Bellingham', 'England', 18, 'Central Midfield', 22, 186, 80000000, 6000000),
+('Gio Reyna', 'United States', 19, 'Attacking Midfield', 32, 185, 60000000, 5000000),
+('Mats Hummels', 'Germany', 32, 'Center-Back', 15, 191, 25000000, 6000000),
+('Thomas Meunier', 'Belgium', 30, 'Right-Back', 24, 190, 30000000, 7000000),
+('Axel Witsel', 'Belgium', 32, 'Central Midfield', 28, 186, 20000000, 5000000),
+('Raphael Guerreiro', 'Portugal', 27, 'Left-Back', 13, 170, 40000000, 7000000),
+('Emre Can', 'Germany', 27, 'Defensive Midfield', 23, 184, 35000000, 6000000),
+('Manuel Akanji', 'Switzerland', 26, 'Center-Back', 16, 187, 40000000, 7000000),
+('Thorgan Hazard', 'Belgium', 28, 'Left Winger', 10, 174, 50000000, 8000000),
+('Youssoufa Moukoko', 'Germany', 16, 'Striker', 18, 182, 60000000, 5000000),
+('Giovanni Reyna', 'United States', 19, 'Attacking Midfield', 32, 185, 60000000, 5000000),
+('Mats Hummels', 'Germany', 32, 'Center-Back', 15, 191, 25000000, 6000000),
+('Thomas Meunier', 'Belgium', 30, 'Right-Back', 24, 190, 30000000, 7000000),
+('Axel Witsel', 'Belgium', 32, 'Central Midfield', 28, 186, 20000000, 5000000),
+('Raphael Guerreiro', 'Portugal', 27, 'Left-Back', 13, 170, 40000000, 7000000),
+('Emre Can', 'Germany', 27, 'Defensive Midfield', 23, 184, 35000000, 6000000),
+('Manuel Akanji', 'Switzerland', 26, 'Center-Back', 16, 187, 40000000, 7000000),
+('Thorgan Hazard', 'Belgium', 28, 'Left Winger', 10, 174, 50000000, 8000000),
+('Youssoufa Moukoko', 'Germany', 16, 'Striker', 18, 182, 60000000, 5000000),
+('Giovanni Reyna', 'United States', 19, 'Attacking Midfield', 32, 185, 60000000, 5000000),
+('Mats Hummels', 'Germany', 32, 'Center-Back', 15, 191, 25000000, 6000000),
+('Thomas Meunier', 'Belgium', 30, 'Right-Back', 24, 190, 30000000, 7000000),
+('Axel Witsel', 'Belgium', 32, 'Central Midfield', 28, 186, 20000000, 5000000),
+('Raphael Guerreiro', 'Portugal', 27, 'Left-Back', 13, 170, 40000000, 7000000),
+('Emre Can', 'Germany', 27, 'Defensive Midfield', 23, 184, 35000000, 6000000),
+('Manuel Akanji', 'Switzerland', 26, 'Center-Back', 16, 187, 40000000, 7000000),
+('Thorgan Hazard', 'Belgium', 28, 'Left Winger', 10, 174, 50000000, 8000000),
+('Youssoufa Moukoko', 'Germany', 16, 'Striker', 18, 182, 60000000, 5000000);
 
 -- Buat fungsi di bawah untuk menghapus data player yang sama
 CREATE OR REPLACE FUNCTION delete_same_player()
