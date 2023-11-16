@@ -37,17 +37,3 @@ VALUES
 ('David Coote', 'England', 39),
 ('Jonathan Moss', 'England', 50),
 ('Martin Atkinson', 'England', 50);
-
-CREATE OR REPLACE FUNCTION delete_same_referee()
-RETURNS VOID AS $$
-BEGIN
-   
-    DELETE FROM referees p1
-    USING referees p2
-    WHERE p1.referee_id <> p2.referee_id AND p1.name = p2.name AND p1.referee_id > p2.referee_id;
-   
-    RETURN;
-END;
-$$ LANGUAGE plpgsql;
-
-select delete_same_referee();

@@ -279,19 +279,3 @@ VALUES
 (78, 911), (78, 912), (78, 913), (78, 914), (78, 915),
 (78, 916), (78, 917), (78, 918), (78, 919), (78, 920),
 (78, 921), (78, 922), (78, 923), (78, 924), (78, 925);
-
--- Function untuk menghapus player_id yang sama
-CREATE OR REPLACE FUNCTION delete_duplicate_players()
-RETURNS VOID AS $$
-BEGIN
-    -- Menghapus data duplikat dengan player_id yang sama
-    DELETE FROM club_players
-    WHERE (player_id, club_player_id) NOT IN (
-        SELECT player_id, MIN(club_player_id)
-        FROM club_players
-        GROUP BY player_id
-    );
-END;
-$$ LANGUAGE plpgsql;
-
-select delete_duplicate_players();

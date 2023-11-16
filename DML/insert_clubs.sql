@@ -58,26 +58,3 @@ VALUES
 ('Juventus', 'Italy', 'Torino', 1903, 102, 4, 58),
 ('Inter Milan', 'Italy', 'Milan', 1908, 4, 4, 42),
 ('AS Roma', 'Italy', 'Roma', 1927, 103, 4, 145);
-
-
-CREATE OR REPLACE FUNCTION delete_same_clubs()
-RETURNS VOID AS $$
-DECLARE
-    club_record RECORD;
-    club_cursor CURSOR FOR
-        SELECT name, country, MIN(club_id) AS min_club_id
-        FROM clubs
-        GROUP BY name, country
-        HAVING COUNT(*) > 1;
-BEGIN
-    FOR club_record IN club_cursor
-    LOOP
-        DELETE FROM clubs
-        WHERE name = club_record.name
-        AND country = club_record.country
-        AND club_id <> club_record.min_club_id;
-    END LOOP;
-END;
-$$ LANGUAGE plpgsql;
-
-select delete_same_clubs()

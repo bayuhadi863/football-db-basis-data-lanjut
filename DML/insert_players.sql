@@ -1451,19 +1451,3 @@ VALUES
 ('Manuel Akanji', 'Switzerland', 26, 'Center-Back', 16, 187, 40000000, 7000000),
 ('Thorgan Hazard', 'Belgium', 28, 'Left Winger', 10, 174, 50000000, 8000000),
 ('Youssoufa Moukoko', 'Germany', 16, 'Striker', 18, 182, 60000000, 5000000);
-
--- Buat fungsi di bawah untuk menghapus data player yang sama
-CREATE OR REPLACE FUNCTION delete_same_player()
-RETURNS VOID AS $$
-BEGIN
-   
-    DELETE FROM players p1
-    USING players p2
-    WHERE p1.player_id <> p2.player_id AND p1.name = p2.name AND p1.player_id > p2.player_id;
-   
-    RETURN;
-END;
-$$ LANGUAGE plpgsql;
-
--- Lalu Jalankan fungsi nya
-select delete_same_player();

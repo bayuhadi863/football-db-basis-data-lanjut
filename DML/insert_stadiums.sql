@@ -149,20 +149,3 @@ VALUES
 ('Estadio Ramón de Carranza', 'Spain', 'Cadiz', 25000),
 ('Estadio Mendizorrotza', 'Spain', 'Vitoria-Gasteiz', 19553),
 ('Visit Mallorca Stadium', 'Spain', 'Palma', 23142);
-
-
--- Buat fungsi di bawah untuk menghapus data stadium yang sama
-CREATE OR REPLACE FUNCTION delete_same_stadium()
-RETURNS VOID AS $$
-BEGIN
-   
-    DELETE FROM stadiums s1
-    USING stadiums s2
-    WHERE s1.stadium_id <> s2.stadium_id AND s1.name = s2.name AND s1.stadium_id > s2.stadium_id;
-   
-    RETURN;
-END;
-$$ LANGUAGE plpgsql;
-
--- Lalu Jalankan fungsi nya
-select delete_same_stadium();

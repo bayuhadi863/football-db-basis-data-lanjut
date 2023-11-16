@@ -164,20 +164,3 @@ VALUES
 INSERT INTO coaches (name, nationality, age, annual_salary)
 VALUES 
 ('Jose Mourinho', 'Portugal', 62, 8000000);
-
-
--- Buat fungsi di bawah untuk menghapus data stadium yang sama
-CREATE OR REPLACE FUNCTION delete_same_coach()
-RETURNS VOID AS $$
-BEGIN
-   
-    DELETE FROM coaches c1
-    USING coaches c2
-    WHERE c1.coach_id <> c2.coach_id AND c1.name = c2.name AND c1.coach_id > c2.coach_id;
-   
-    RETURN;
-END;
-$$ LANGUAGE plpgsql;
-
--- Lalu Jalankan fungsi nya
-select delete_same_coach();
