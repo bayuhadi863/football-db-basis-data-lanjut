@@ -1239,6 +1239,185 @@ VALUES
 ('Rade Krunic', 'Bosnia and Herzegovina', 28, 'Central Midfield', 33, 184, 15000000, 2500000),
 ('Mike Maignan', 'France', 26, 'Goalkeeper', 16, 195, 25000000, 4000000);
 
+-- Bayern Leverkusen
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Patrik Schick', 'Czech Republic', 26, 'Striker', 14, 188, 35000000, 4000000),
+('Florian Wirtz', 'Germany', 19, 'Attacking Midfield', 27, 175, 60000000, 5000000),
+('Moussa Diaby', 'France', 22, 'Left Winger', 7, 170, 45000000, 4000000),
+('Jonathan Tah', 'Germany', 26, 'Center-Back', 4, 195, 30000000, 3500000),
+('Nadiem Amiri', 'Germany', 25, 'Attacking Midfield', 11, 175, 25000000, 3000000),
+('Lukáš Hrádecký', 'Finland', 32, 'Goalkeeper', 1, 192, 15000000, 2000000),
+('Jeremie Frimpong', 'Netherlands', 20, 'Right-Back', 21, 171, 20000000, 2500000),
+('Mitchell Weiser', 'Germany', 28, 'Right-Back', 23, 186, 12000000, 1500000),
+('Edmond Tapsoba', 'Burkina Faso', 23, 'Center-Back', 12, 194, 50000000, 6000000),
+('Charles Aránguiz', 'Chile', 33, 'Central Midfield', 20, 171, 10000000, 1200000),
+('Karim Bellarabi', 'Germany', 31, 'Right Winger', 38, 184, 15000000, 2000000),
+('Aleksandar Dragović', 'Austria', 31, 'Center-Back', 6, 187, 8000000, 1000000),
+('Florian Grillitsch', 'Austria', 26, 'Defensive Midfield', 8, 185, 20000000, 2500000),
+('Mitchell Bakker', 'Netherlands', 21, 'Left-Back', 25, 178, 30000000, 3500000),
+('Santiago Arias', 'Colombia', 30, 'Right-Back', 16, 176, 15000000, 2000000),
+('Atakan Akkaynak', 'Turkey', 22, 'Central Midfield', 28, 182, 10000000, 1200000),
+('Timothy Fosu-Mensah', 'Netherlands', 24, 'Center-Back', 24, 191, 18000000, 2200000),
+('Niklas Lomb', 'Germany', 28, 'Goalkeeper', 35, 192, 5000000, 700000),
+('Wendell', 'Brazil', 28, 'Left-Back', 18, 180, 20000000, 2500000),
+('Daley Sinkgraven', 'Netherlands', 26, 'Left-Back', 22, 175, 18000000, 2200000),
+('Lucas Alario', 'Argentina', 29, 'Striker', 13, 186, 20000000, 2500000),
+('Laszlo Bénes', 'Slovakia', 25, 'Central Midfield', 17, 184, 15000000, 2000000),
+('Kerem Demirbay', 'Germany', 29, 'Central Midfield', 10, 182, 30000000, 3500000),
+('Tin Jedvaj', 'Croatia', 26, 'Center-Back', 16, 186, 20000000, 2500000),
+('Paulinho', 'Brazil', 21, 'Left Winger', 28, 180, 35000000, 4000000);
+
+-- Juventus
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Mattia Perin', 'Italy', 29, 'Goalkeeper', 36, 188, 8000000, 2000000),
+('Carlo Pinsoglio', 'Italy', 32, 'Goalkeeper', 31, 185, 500000, 500000),
+('Leonardo Bonucci', 'Italy', 35, 'Defender', 19, 190, 10000000, 6000000),
+('Alex Sandro', 'Brazil', 31, 'Defender', 12, 184, 12000000, 6000000),
+
+('Danilo', 'Brazil', 31, 'Defender', 6, 184, 10000000, 4000000),
+('Juan Cuadrado', 'Colombia', 34, 'Defender', 11, 176, 8000000, 4000000),
+('Mattia De Sciglio', 'Italy', 29, 'Defender', 2, 182, 6000000, 3000000),
+('Daniele Rugani', 'Italy', 28, 'Defender', 24, 190, 8000000, 3000000),
+
+('Manuel Locatelli', 'Italy', 24, 'Midfielder', 5, 186, 35000000, 3000000),
+('Adrien Rabiot', 'France', 27, 'Midfielder', 25, 190, 20000000, 7000000),
+('Weston McKennie', 'USA', 24, 'Midfielder', 14, 185, 28000000, 4000000),
+('Leandro Paredes', 'Argentina', 28, 'Midfielder', 32, 180, 22000000, 5000000),
+('Nicolo Fagioli', 'Italy', 21, 'Midfielder', 44, 178, 12000000, 500000),
+('Fabio Miretti', 'Italy', 19, 'Midfielder', 20, 175, 25000000, 500000),
+('Dusan Vlahovic', 'Serbia', 22, 'Forward', 7, 190, 70000000, 7000000),
+('Arkadiusz Milik', 'Poland', 28, 'Forward', 14, 186, 20000000, 5000000),
+
+('Moise Kean', 'Italy', 22, 'Forward', 18, 182, 25000000, 3000000),
+('Federico Chiesa', 'Italy', 24, 'Forward', 22, 180, 60000000, 5000000),
+('Mattia Perin', 'Italy', 29, 'Goalkeeper', 36, 188, 8000000, 2000000),
+('Federico Gatti', 'Italy', 24, 'Defender', 42, 194, 10000000, 1000000),
+('Luca Pellegrini', 'Italy', 23, 'Defender', 17, 180, 12000000, 1000000),
+('Kaio Jorge', 'Brazil', 20, 'Forward', 21, 182, 10000000, 500000),
+('Samuel Iling-Junior', 'England', 19, 'Forward', 44, 170, 5000000, 200000),
+('Matias Soulé', 'Argentina', 19, 'Midfielder', 41, 175, 8000000, 200000),
+('Fabio Miretti', 'Italy', 19, 'Midfielder', 20, 175, 25000000, 500000),
+('Nicolo Rovella', 'Italy', 20, 'Midfielder', 38, 181, 15000000, 500000);
+
+-- AS Roma
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Tammy Abraham', 'England', 24, 'Striker', 9, 190, 50000000, 5000000),
+('Lorenzo Pellegrini', 'Italy', 25, 'Attacking Midfield', 7, 181, 60000000, 6000000),
+('Jordan Veretout', 'France', 28, 'Central Midfield', 4, 178, 40000000, 4000000),
+('Rui Patrício', 'Portugal', 34, 'Goalkeeper', 1, 190, 25000000, 3000000),
+('Chris Smalling', 'England', 32, 'Center-Back', 6, 194, 30000000, 3500000),
+('Matteo Politano', 'Italy', 28, 'Right Winger', 16, 169, 35000000, 4000000),
+('Leonardo Spinazzola', 'Italy', 29, 'Left-Back', 37, 185, 35000000, 4000000),
+('Eldor Shomurodov', 'Uzbekistan', 26, 'Striker', 11, 188, 25000000, 3000000),
+('Amadou Diawara', 'Guinea', 25, 'Central Midfield', 42, 180, 30000000, 3500000),
+('Marash Kumbulla', 'Albania', 22, 'Center-Back', 3, 191, 40000000, 4500000),
+('Stephan El Shaarawy', 'Italy', 29, 'Left Winger', 92, 178, 30000000, 3500000),
+('Carles Pérez', 'Spain', 24, 'Right Winger', 11, 174, 25000000, 3000000),
+('Roger Ibañez', 'Brazil', 23, 'Center-Back', 3, 186, 40000000, 4500000),
+('Nicolò Zaniolo', 'Italy', 22, 'Attacking Midfield', 22, 190, 60000000, 6000000),
+('Gonzalo Villar', 'Spain', 24, 'Central Midfield', 8, 180, 30000000, 3500000),
+('Bryan Reynolds', 'United States', 21, 'Right-Back', 19, 185, 20000000, 2500000),
+('Chris Smalling', 'England', 32, 'Center-Back', 6, 194, 30000000, 3500000),
+('Matteo Politano', 'Italy', 28, 'Right Winger', 16, 169, 35000000, 4000000),
+('Leonardo Spinazzola', 'Italy', 29, 'Left-Back', 37, 185, 35000000, 4000000),
+('Eldor Shomurodov', 'Uzbekistan', 26, 'Striker', 11, 188, 25000000, 3000000),
+('Amadou Diawara', 'Guinea', 25, 'Central Midfield', 42, 180, 30000000, 3500000),
+('Marash Kumbulla', 'Albania', 22, 'Center-Back', 3, 191, 40000000, 4500000),
+('Stephan El Shaarawy', 'Italy', 29, 'Left Winger', 92, 178, 30000000, 3500000),
+('Carles Pérez', 'Spain', 24, 'Right Winger', 11, 174, 25000000, 3000000),
+('Roger Ibañez', 'Brazil', 23, 'Center-Back', 3, 186, 40000000, 4500000);
+
+-- Inter Milan
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES
+('Samir Handanovic', 'Slovenia', 38, 'Goalkeeper', 1, 192, 2000000, 3000000),
+('Andre Onana', 'Cameroon', 26, 'Goalkeeper', 24, 201, 30000000, 4000000),
+('Alex Cordaz', 'Italy', 39, 'Goalkeeper', 46, 188, 100000, 500000),
+('Stefan de Vrij', 'Netherlands', 30, 'Defender', 6, 189, 28000000, 5000000),
+('Alessandro Bastoni', 'Italy', 23, 'Defender', 95, 186, 45000000, 3000000),
+('Milan Skriniar', 'Slovakia', 27, 'Defender', 37, 186, 60000000, 5000000),
+('Denzel Dumfries', 'Netherlands', 26, 'Defender', 2, 185, 35000000, 3000000),
+('Danilo D’Ambrosio', 'Italy', 34, 'Defender', 33, 182, 2000000, 2000000),
+('Federico Dimarco', 'Italy', 25, 'Defender', 32, 181, 15000000, 2000000),
+
+('Robin Gosens', 'Germany', 28, 'Defender', 8, 184, 25000000, 3000000),
+('Marcelo Brozovic', 'Croatia', 29, 'Midfielder', 77, 184, 50000000, 6000000),
+('Henrikh Mkhitaryan', 'Armenia', 33, 'Midfielder', 22, 182, 10000000, 4000000),
+('Hakan Calhanoglu', 'Turkey', 28, 'Midfielder', 20, 182, 35000000, 5000000),
+('Nicolò Barella', 'Italy', 25, 'Midfielder', 23, 172, 70000000, 5000000),
+('Kristjan Asllani', 'Albania', 20, 'Midfielder', 14, 185, 15000000, 1000000),
+
+('Edin Dzeko', 'Bosnia', 36, 'Forward', 9, 193, 5000000, 5000000),
+('Romelu Lukaku', 'Belgium', 29, 'Forward', 90, 191, 60000000, 8000000),
+
+('Lautaro Martinez', 'Argentina', 24, 'Forward', 10, 174, 70000000, 6000000),
+('Joaquin Correa', 'Argentina', 28, 'Forward', 19, 186, 25000000, 3000000),
+('Andrea Pinamonti', 'Italy', 23, 'Forward', 32, 189, 15000000, 2000000),
+('Valentino Lazaro', 'Austria', 26, 'Midfielder', 21, 179, 10000000, 2000000),
+('Roberto Gagliardini', 'Italy', 28, 'Midfielder', 5, 189, 10000000, 2000000),
+('Matteo Darmian', 'Italy', 32, 'Defender', 36, 182, 5000000, 2000000);
+
+-- RB Leipzig
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Andrej Kramarić', 'Croatia', 31, 'Striker', 27, 177, 45000000, 5500000),
+('Dominik Szoboszlai', 'Hungary', 21, 'Attacking Midfield', 17, 181, 60000000, 7000000),
+('Marcel Sabitzer', 'Austria', 28, 'Central Midfield', 7, 177, 50000000, 6000000),
+('Peter Gulácsi', 'Hungary', 32, 'Goalkeeper', 1, 191, 30000000, 4000000),
+('Dayot Upamecano', 'France', 23, 'Center-Back', 5, 186, 60000000, 7000000),
+('Dani Olmo', 'Spain', 24, 'Right Winger', 25, 181, 55000000, 6500000),
+('Christopher Nkunku', 'France', 24, 'Central Midfield', 18, 174, 50000000, 6000000),
+('Willi Orban', 'Hungary', 29, 'Center-Back', 4, 186, 25000000, 3000000),
+('Emil Forsberg', 'Sweden', 30, 'Left Winger', 10, 179, 40000000, 5000000),
+('Amadou Haidara', 'Mali', 24, 'Central Midfield', 8, 181, 35000000, 4500000),
+('Josko Gvardiol', 'Croatia', 20, 'Center-Back', 37, 188, 30000000, 4000000),
+('Kevin Kampl', 'Slovenia', 31, 'Central Midfield', 44, 180, 20000000, 2500000),
+('Angeliño', 'Spain', 25, 'Left-Back', 3, 176, 40000000, 5000000),
+('Tyler Adams', 'United States', 23, 'Defensive Midfield', 14, 175, 30000000, 4000000),
+('Ibrahima Konaté', 'France', 22, 'Center-Back', 6, 194, 50000000, 6000000),
+('Marcel Halstenberg', 'Germany', 30, 'Left-Back', 23, 187, 30000000, 4000000),
+('Benjamin Henrichs', 'Germany', 25, 'Right-Back', 39, 184, 25000000, 3000000),
+('Hee-chan Hwang', 'South Korea', 25, 'Striker', 11, 177, 35000000, 4500000),
+('Nordi Mukiele', 'France', 24, 'Right-Back', 22, 187, 40000000, 5000000),
+('Justin Kluivert', 'Netherlands', 22, 'Left Winger', 21, 174, 30000000, 4000000),
+('Josko Gvardiol', 'Croatia', 20, 'Center-Back', 37, 188, 30000000, 4000000),
+('Kevin Kampl', 'Slovenia', 31, 'Central Midfield', 44, 180, 20000000, 2500000),
+('Angeliño', 'Spain', 25, 'Left-Back', 3, 176, 40000000, 5000000),
+('Tyler Adams', 'United States', 23, 'Defensive Midfield', 14, 175, 30000000, 4000000),
+('Ibrahima Konaté', 'France', 22, 'Center-Back', 6, 194, 50000000, 6000000);
+
+-- Olympique de Marseille
+INSERT INTO players (name, nationality, age, position, team_number, height, market_value, annual_salary)
+VALUES 
+('Dimitri Payet', 'France', 35, 'Attacking Midfield', 10, 175, 10000000, 1200000),
+('Arkadiusz Milik', 'Poland', 28, 'Striker', 14, 186, 25000000, 3000000),
+('Steve Mandanda', 'France', 37, 'Goalkeeper', 30, 185, 5000000, 600000),
+('Duje Ćaleta-Car', 'Croatia', 25, 'Center-Back', 15, 191, 20000000, 2500000),
+('Boubacar Kamara', 'France', 22, 'Defensive Midfield', 4, 185, 30000000, 3500000),
+('Jordan Amavi', 'France', 28, 'Left-Back', 18, 176, 15000000, 1800000),
+('Florian Thauvin', 'France', 29, 'Right Winger', 26, 179, 35000000, 4000000),
+('Pape Gueye', 'Senegal', 23, 'Central Midfield', 8, 189, 20000000, 2500000),
+('Alvaro Gonzalez', 'Spain', 32, 'Center-Back', 3, 183, 15000000, 1800000),
+('Pol Lirola', 'Spain', 24, 'Right-Back', 2, 183, 18000000, 2000000),
+('Konrad de la Fuente', 'United States', 21, 'Left Winger', 29, 177, 25000000, 3000000),
+('William Saliba', 'France', 21, 'Center-Back', 4, 192, 25000000, 3000000),
+('Luis Henrique', 'Brazil', 20, 'Left Winger', 11, 178, 20000000, 2500000),
+('Mattéo Guendouzi', 'France', 22, 'Central Midfield', 17, 185, 25000000, 3000000),
+('Luan Peres', 'Brazil', 27, 'Center-Back', 23, 186, 15000000, 1800000),
+('Leonardo Balerdi', 'Argentina', 22, 'Center-Back', 5, 186, 20000000, 2500000),
+('Valentin Rongier', 'France', 27, 'Central Midfield', 21, 172, 18000000, 2000000),
+('Boubacar Kamara', 'France', 22, 'Defensive Midfield', 4, 185, 30000000, 3500000),
+('Jordan Amavi', 'France', 28, 'Left-Back', 18, 176, 15000000, 1800000),
+('Florian Thauvin', 'France', 29, 'Right Winger', 26, 179, 35000000, 4000000),
+('Pape Gueye', 'Senegal', 23, 'Central Midfield', 8, 189, 20000000, 2500000),
+('Alvaro Gonzalez', 'Spain', 32, 'Center-Back', 3, 183, 15000000, 1800000),
+('Pol Lirola', 'Spain', 24, 'Right-Back', 2, 183, 18000000, 2000000),
+('Konrad de la Fuente', 'United States', 21, 'Left Winger', 29, 177, 25000000, 3000000),
+('William Saliba', 'France', 21, 'Center-Back', 4, 192, 25000000, 3000000);
+
 
 -- Buat fungsi di bawah untuk menghapus data player yang sama
 CREATE OR REPLACE FUNCTION delete_same_player()
