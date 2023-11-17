@@ -36,7 +36,7 @@ $$;
 
 select * from get_club_player('Manchester United');
 
--- Function untuk menampilkan lineup pertandingan
+-- Function untuk menampilkan player yang bermain di pertandingan
 CREATE OR REPLACE FUNCTION get_players_in_match(match_id INTEGER)
 RETURNS TABLE (
   player_id INTEGER,
@@ -70,9 +70,10 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-select * from get_players_in_match(1)
+select * from get_players_in_match(33)
 WHERE team_name = 'Manchester City';
 
+-- Membandingkan susunan pemain suatu club dalam beberapa match
 CREATE OR REPLACE FUNCTION compare_lineups_by_club(match_id_1 INTEGER, match_id_2 INTEGER, club_name VARCHAR)
 RETURNS TABLE (
   player_id INTEGER,
@@ -101,7 +102,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-SELECT * FROM compare_lineups_by_club(1, 2, 'Manchester United');
+SELECT * FROM compare_lineups_by_club(33, 2, 'FC Barcelona');
 
 -- Function menampilkan statistics suatu match
 CREATE OR REPLACE FUNCTION get_match_statistics(match_id INTEGER)

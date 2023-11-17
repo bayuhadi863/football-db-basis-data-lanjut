@@ -126,3 +126,49 @@ END;
 $$ LANGUAGE plpgsql;
 
 CALL delete_duplicate_club_players();
+
+-- Menambahkan match win pada league_klasmen
+CREATE OR REPLACE PROCEDURE update_match_win(
+    in_league_id INT,
+    in_club_id INT
+)
+LANGUAGE plpgsql
+AS $$
+BEGIN
+    UPDATE league_klasmen
+    SET match_win = match_win + 1
+    WHERE league_id = in_league_id AND club_id = in_club_id;
+END;
+$$;
+
+CALL update_match_win(2, 9);
+
+-- menambahkan match_draw pada league_klasmen
+CREATE OR REPLACE PROCEDURE update_match_draw(
+    in_league_id INT,
+    in_club_id INT
+)
+LANGUAGE plpgsql
+AS $$
+BEGIN
+    UPDATE league_klasmen
+    SET match_draw = match_draw + 1
+    WHERE league_id = in_league_id AND club_id = in_club_id;
+END;
+$$;
+CALL update_match_draw(2, 15);
+
+-- menambahkan match_lose pada league_klasmen
+CREATE OR REPLACE PROCEDURE update_match_lose(
+    in_league_id INT,
+    in_club_id INT
+)
+LANGUAGE plpgsql
+AS $$
+BEGIN
+    UPDATE league_klasmen
+    SET match_lose = match_lose + 1
+    WHERE league_id = in_league_id AND club_id = in_club_id;
+END;
+$$;
+CALL update_match_lose(2, 16);

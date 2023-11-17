@@ -10,3 +10,13 @@ INSERT INTO goal_details (match_id, goal_scorer_id, goal_assist_provider_id,
 VALUES
 (2, 38, 47, 10, 'Finishing', 37),
 (2, 839, 38, 10, 'Penalty', 65);
+
+INSERT INTO goal_details (match_id, goal_scorer_id, goal_assist_provider_id, 
+						  club_id, goal_type, goal_time)
+VALUES
+(33, 38, 47, 10, 'Finishing', 37),
+(33, 38, 839, 10, 'Shooting', 39),
+(33, 839, 47, 10, 'Shooting', 55),
+(33, 12, 111, 74, 'Finishing', 20),
+(33, 16, 111, 74, 'Shooting', 85),
+(33, 38, 47, 10, 'Heading', 65);
