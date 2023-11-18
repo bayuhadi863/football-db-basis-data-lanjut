@@ -39,4 +39,26 @@ AFTER UPDATE ON league_klasmen
 FOR EACH ROW
 EXECUTE FUNCTION update_total_point_on_league_klasmen_update();
 
+-- Trigger untuk mengupdate home_score atau away_score setelah INSERT di tabel goal_details
+CREATE OR REPLACE FUNCTION update_match_scores()
+RETURNS TRIGGER AS $$
+BEGIN
+  -- Update home_score if club_id in goal_details is the home club
+  UPDATE matches
+  SET home_score = home_score + 1
+  WHERE match_id = NEW.match_id AND NEW.club_id = club_home_id;
+
+  -- Update away_score if club_id in goal_details is the away club
+  UPDATE matches
+  SET away_score = away_score + 1
+  WHERE match_id = NEW.match_id AND NEW.club_id = club_away_id;
+
+  RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER after_goal_insert
+AFTER INSERT ON goal_details
+FOR EACH ROW
+EXECUTE FUNCTION update_match_scores();
 
