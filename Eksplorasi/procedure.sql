@@ -172,3 +172,35 @@ BEGIN
 END;
 $$;
 CALL update_match_lose(2, 16);
+
+-- Prosedur untuk insert ke club_players
+CREATE OR REPLACE PROCEDURE insert_player_to_club(
+    club_name VARCHAR,
+    player_name VARCHAR
+)
+AS $$
+DECLARE
+    var_club_id INT;
+    var_player_id INT;
+BEGIN
+    -- Ambil ID klub berdasarkan nama klub
+    SELECT club_id INTO var_club_id
+    FROM clubs
+    WHERE name = club_name;
+
+    -- Ambil ID pemain berdasarkan nama pemain
+    SELECT player_id INTO var_player_id
+    FROM players
+    WHERE name = player_name;
+
+    -- Jika klub dan pemain ditemukan, lakukan insert ke tabel club_players
+    IF var_club_id IS NOT NULL AND var_player_id IS NOT NULL THEN
+        INSERT INTO club_players (club_id, player_id)
+        VALUES (var_club_id, var_player_id);
+    ELSE
+        RAISE EXCEPTION 'Club or player not found';
+    END IF;
+END;
+$$ LANGUAGE plpgsql;
+
+CALL insert_player_to_club('Paris Saint-Germain', 'Kylian Mbappe');
